@@ -8,9 +8,13 @@
     <title>Personal Website</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <link href="website.css" rel="stylesheet">
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
 </head>
-
 <body>
     <!--
         
@@ -38,19 +42,23 @@
             <h2>Student, Aspiring Engineer, Reseller</h2>
             <!--Dont forget links to info-->
         </div>
-
-        <div id="about">
-                <h1>About me</h1>
+  <div id="demo">
+  <button v-on:click="show = !show">
+    About
+  </button>
+  <transition name="fade">
+    <p v-if="show">
+<div id="about">
+               <h1>About me</h1>
                 <p> Growing up in my househould, I was always taught the value of hardwork. I am currently a rising senior at A. Philip Randolph Campus High school
-                    and am aiming to study engineering in a top college. </p>    
-                <!--write about where i am currently(ASC)-->
-        </div>
-
+                    and am aiming to study engineering in a top college.I am currently in a summer intensive called All Star Code. </p>    
+  </transition>
+</div>
         <div id="myProjects">
-                <h1>My Projects</h1>
+                <!--<h1>My Projects</h1>
                 <p>I am currently enrolled in a summer intensive called AllStarCode and have been working on projects throughout
                     the summer, here is some of the projects I worked on: </p>
-                
+                -->
         </div>
 
         <div id="myInventory">
@@ -64,5 +72,5 @@
         crossorigin="anonymous"></script>
     <script src="website.js"></script>
 </body>
-
+<h1>More coming soon</h1>
 </html>
