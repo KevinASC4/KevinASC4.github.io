@@ -7,11 +7,8 @@ format:
     theme: journal
     toc: true
 ---
-
-
-# Hello, World!  
 Welcome to my Quarto website. 
 
 This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+To learn more about Quarto websites, visit [Quarto Documentation](https://quarto.org/docs/websites).

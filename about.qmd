@@ -3,4 +3,3 @@ title: "About"
 picture: CuteFace.jpg
 ---
 
-About this site
