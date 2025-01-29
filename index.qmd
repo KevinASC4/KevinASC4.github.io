@@ -1,4 +1,3 @@
-
 ---
 title: "Welcome to My Website"
 author: "Kevin Lopez Sepulveda"
@@ -8,9 +7,10 @@ format:
     theme: journal
     toc: true
 ---
+
+
 # Hello, World!  
 Welcome to my Quarto website. 
----
 
 This is a Quarto website.
 

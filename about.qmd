@@ -1,6 +1,6 @@
 ---
 title: "About"
-picture: CuteFace.jpg.jpg
+picture: CuteFace.jpg
 ---
 
 About this site

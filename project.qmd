@@ -1,6 +1,6 @@
 ---
 title: "Project"
-picture: CuteFace.jpg.jpg
+picture: CuteFace.jpg
 ---
 
 Test
