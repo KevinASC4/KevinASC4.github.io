@@ -10,7 +10,7 @@ website:
       - href: about.qmd
         text: About
       - href: project.qmd
-        text: project.qmd
+        text: project
 format:
   html:
     theme:
