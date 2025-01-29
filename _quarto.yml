@@ -8,9 +8,9 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        tezt: About
+        text: About
       - href: project.qmd
-          text: project.qmd
+        text: project.qmd
 format:
   html:
     theme:
