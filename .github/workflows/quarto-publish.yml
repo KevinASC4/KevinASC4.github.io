@@ -1,23 +1,28 @@
-project:
-  type: website
+ on:
+   push:
+     branches: main
 
-website:
-  title: "KevinASC4.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: project.qmd
-        text: Project
+ name: quarto-publish
 
-format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+ jobs:
+   build-deploy:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Check out repository
+         uses: actions/checkout@v4
 
+       - name: Set up Quarto
+         uses: quarto-dev/quarto-actions/setup@v2
 
+       - name: Install Python dependencies
+         uses: actions/setup-python@v5
+         with:
+           python-version: '3.10'
+       - run: pip install -r requirements.txt
+
+       - name: Render and Publish
+         uses: quarto-dev/quarto-actions/publish@v2
+         with:
+           target: gh-pages
+           env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
