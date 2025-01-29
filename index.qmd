@@ -1,0 +1,17 @@
+
+---
+title: "Welcome to My Website"
+author: "Kevin Lopez Sepulveda"
+date: "2025-01-26"
+format:
+  html:
+    theme: journal
+    toc: true
+---
+# Hello, World!  
+Welcome to my Quarto website. 
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

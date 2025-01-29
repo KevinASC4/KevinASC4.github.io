@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kevinasc4-github-io"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Lopez Sepulveda <klopezs@bu.edu>"]
+readme = "README.md"
+packages = [{include = "kevinasc4"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
