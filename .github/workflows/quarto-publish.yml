@@ -1,8 +1,9 @@
+name: Quarto Publish
+
 on:
   push:
-    branches: [main]
-
-name: quarto-publish
+    branches:
+      - origin # Trigger deployment on push to the main branch
 
 jobs:
   build-deploy:
@@ -21,11 +22,14 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Render site
-        run: quarto render
+        run: quarto render  # Renders the site locally
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: gh-pages
+        run: |
+          git config --local user.email "you@example.com"  # Replace with your email
+          git config --local user.name "Your Name"           # Replace with your name
+          git checkout gh-pages  # Switch to gh-pages branch
+          cp -r _site/* .  # Copy generated site files to the root of gh-pages
+          git add .  # Stage changes
+          git commit -m "Automated deploy of Quarto site" || echo "No changes to commit"  # Commit changes; skip if nothing to commit
+          git push origin gh-pages  # Push to gh-pages branch
