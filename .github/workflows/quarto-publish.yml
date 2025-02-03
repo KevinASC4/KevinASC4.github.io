@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main  # Correct branch trigger
+      - main
 
 name: quarto-publish
 
@@ -21,13 +21,8 @@ jobs:
           python-version: '3.10'
       - run: pip install -r requirements.txt
 
-      - name: Verify Quarto Installation
-        run: quarto check
-
       - name: Render site
-        run: |
-          quarto render
-          ls -l _site  # Debugging step to check if _site is generated
+        run: quarto render
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
