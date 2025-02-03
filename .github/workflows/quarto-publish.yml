@@ -1,9 +1,9 @@
+name: quarto-publish
+
 on:
   push:
     branches:
-      - main
-
-name: quarto-publish
+      - main  # Change to your primary branch
 
 jobs:
   build-deploy:
@@ -28,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site
+          publish_dir: ./_site
           publish_branch: gh-pages
