@@ -1,12 +1,6 @@
 on:
   push:
-<<<<<<< HEAD
-    branches: 
-      - main
-=======
-    branches:
-      - main  # Correct branch trigger
->>>>>>> parent of 5450f11 (Manually deploy Quarto site)
+    branches: [main]
 
 name: quarto-publish
 
@@ -26,17 +20,12 @@ jobs:
           python-version: '3.10'
       - run: pip install -r requirements.txt
 
-      - name: Verify Quarto Installation
-        run: quarto check
-
       - name: Render site
-        run: |
-          quarto render
-          ls -l _site  # Debugging step to check if _site is generated
+        run: quarto render
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site  # Ensure this points to the correct directory
+          publish_dir: ./_site
           publish_branch: gh-pages
