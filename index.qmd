@@ -6,9 +6,14 @@ format:
   html:
     theme: journal
     toc: true
+site: 
+  title: "Kevin's Quarto Site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me 
+      - href: project.qmd
+        text: Past Projects
 ---
-Welcome to my Quarto website. 
-
-This is a Quarto website.
-
-To learn more about Quarto websites, visit [Quarto Documentation](https://quarto.org/docs/websites).

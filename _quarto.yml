@@ -1,23 +1,16 @@
 project:
   type: website
-
 website:
-  title: "KevinASC4.github.io"
+  title: "Kevin's Quarto Site"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-      - href: project.qmd
-        text: Project
-
+      - href: contact.qmd
+        text: Contact
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: journal
     toc: true
-
-
