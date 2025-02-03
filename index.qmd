@@ -1,4 +1,6 @@
 ---
+output-dir: _site
+  base-url: /KevinASC4.github.io
 title: "Welcome to My Website"
 author: "Kevin Lopez Sepulveda"
 date: "2025-01-26"
