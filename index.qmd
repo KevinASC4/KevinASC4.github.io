@@ -17,4 +17,4 @@ site:
       - href: project.qmd
         text: Past Projects
 ---
-![Profile Picture](images/CuteFace.jpg){width=200px}
+![Profile Picture](./images/CuteFace.jpg){width=400px}
