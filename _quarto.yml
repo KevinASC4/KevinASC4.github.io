@@ -10,8 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: contact.qmd
-        text: Contact
+      - href: project.qmd
+        text: Past Projects
 format:
   html:
     theme: journal
