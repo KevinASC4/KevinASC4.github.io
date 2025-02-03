@@ -4,12 +4,12 @@ project:
 
 site: 
   title: "Kevin's Quarto Site"
-  base-url: /KevinASC4.github.io
+  base-url: /KevinASC4.github.io  # Ensure this matches your GitHub Pages URL
   navbar:
     left:
-      - href: index.qmd
+      - href: index.html  # Change .qmd to .html for navigation
         text: Home
-      - href: about.qmd
+      - href: about.html  # Change .qmd to .html for navigation
         text: About Me 
-      - href: project.qmd
+      - href: project.html  # Change .qmd to .html for navigation
         text: Past Projects
