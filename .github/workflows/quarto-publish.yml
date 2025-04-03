@@ -18,7 +18,7 @@ jobs:
       - name: Install Python dependencies
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
       - run: pip install -r requirements.txt
 
       - name: Render site
@@ -26,8 +26,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          git config --local user.email "you@example.com"  # Replace with your email
-          git config --local user.name "Your Name"           # Replace with your name
+          git config --local user.email "LopezSepulvedaKevinAdrian@gmail.com"  # Replace with your email
+          git config --local user.name "Kevin Lopez Sepulveda"           # Replace with your name
           git checkout gh-pages  # Switch to gh-pages branch
           cp -r _site/* .  # Copy generated site files to the root of gh-pages
           git add .  # Stage changes
