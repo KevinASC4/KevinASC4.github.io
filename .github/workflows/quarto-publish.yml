@@ -3,7 +3,7 @@ name: Quarto Publish
 on:
   push:
     branches:
-      - origin/gh-pages # Trigger deployment on push to the main branch
+      - gh-pages  # Trigger deployment on push to the gh-pages branch
 
 jobs:
   build-deploy:
@@ -18,18 +18,19 @@ jobs:
       - name: Install Python dependencies
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - run: pip install -r requirements.txt
+          python-version: '3.12'  # Specify the Python version you want to use
+
+      - run: pip install -r requirements.txt  # Install Python dependencies
 
       - name: Render site
-        run: quarto render  # Renders the site locally
+        run: quarto render  # Render the Quarto site
 
       - name: Deploy to GitHub Pages
         run: |
           git config --local user.email "LopezSepulvedaKevinAdrian@gmail.com"  # Replace with your email
-          git config --local user.name "Kevin Lopez Sepulveda"           # Replace with your name
-          git checkout gh-pages  # Switch to gh-pages branch
+          git config --local user.name "Kevin Lopez Sepulveda"  # Replace with your name
+          git checkout gh-pages  # Switch to the gh-pages branch
           cp -r _site/* .  # Copy generated site files to the root of gh-pages
           git add .  # Stage changes
           git commit -m "Automated deploy of Quarto site" || echo "No changes to commit"  # Commit changes; skip if nothing to commit
-          git push origin gh-pages  # Push to gh-pages branch
+          git push origin gh-pages  # Push to the gh-pages branch
