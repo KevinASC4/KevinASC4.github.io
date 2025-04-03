@@ -1,0 +1,70 @@
+---
+title: "Boston University Coursework"
+format: html
+editor: visual
+jupyter: python3
+---
+
+# 📚 Boston University Coursework
+
+Welcome to my **Boston University** coursework page. Below, you'll find a list of courses I've taken, along with **code execution** from my assignments and projects. I have utilized a majority of R and python for my courses. All files can be found on my Github repository linked below
+
+---
+
+## **CS544 - Foundations of Analytics and Data Visualization**  
+### Course Summary
+
+The goal of this course is to equip students with the mathematical and practical skills necessary for success in the field of data analytics. Throughout the course, we reviewed essential concepts in probability and statistics while gaining hands-on experience with the R programming language for statistical computing and graphics. We explored various types of data and delved into data summarization techniques, including visualizations such as histograms, boxplots, and scatter plots. 
+
+Learning about histograms was particularly impactful for my understanding of data analysis. Histograms provided a powerful way to visualize the distribution of continuous data, allowing me to identify patterns, trends, and outliers within datasets. By representing data in this manner, I gained insights into the underlying structure of the data, which is crucial for effective decision-making. 
+
+In addition to histograms, the course covered the analysis of discrete, continuous, and multivariate distributions, enabling me to grasp how different data populations behave. We also examined common errors in measurements and computations, which emphasized the importance of accuracy in data analysis. Topics such as confidence intervals and hypothesis testing were integral to the curriculum, as they formed the basis for making data-driven conclusions. 
+
+By the end of the course, I not only gained proficiency in R for data visualization and analysis but also developed a solid foundation in the statistical concepts that underpin effective data analytics. The combination of theoretical knowledge and practical application has significantly enhanced my analytical skills, preparing me for more advanced studies and real-world data challenges. An example of what I was doing can be found below.
+
+### **Running R Script**
+```{r}
+# Run the external R script using the raw GitHub URL
+script_url <- 'https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS544-BU/hw10.R'
+output <- source(script_url, echo = FALSE)
+
+# Print output to ensure it's shown
+print(output)
+```
+## **CS566 - Analysis of Algorithms**  
+### Course Summary
+By working through various algorithmic challenges, I gained a deep understanding of how different algorithms operate and their efficiencies. Learning about dynamic programming and greedy algorithms was particularly valuable, as it equipped me with the techniques to solve complex problems optimally. Implementing algorithms in programming assignments reinforced my coding skills and helped me appreciate the importance of algorithmic efficiency in software development.
+
+Overall, this course significantly enhanced my problem-solving abilities and provided me with a solid foundation for future studies in computer science and data analytics.
+
+## **CS677 - Data Science with Python**  
+### Course Summary
+In the CS677 - Data Science with Python course, students learn major Python tools and techniques for data analysis. The course covers various topics through weekly assignments and mini-projects, allowing students to build essential statistical, visualization, and data science skills necessary for effective data usage in diverse applications, including finance, text processing, time series analysis, and recommendation systems.
+
+A significant focus of the course is on basic machine learning techniques, such as linear regression. Understanding linear regression was particularly beneficial as it provided insights into how to model relationships between variables and make predictions based on data. Through practical implementations and visualizations, I learned how to evaluate model performance and apply these techniques to real-world datasets.
+
+Additionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.
+```{python}
+import requests
+import nbformat
+from nbclient import NotebookClient
+
+# GitHub raw URL of the Jupyter Notebook
+notebook_url = "https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS677-BU/files_for_HW3_Seaborn/files_for_HW3_Seaborn/files_for_HW3/HW3_Seaborn.ipynb"
+
+# Fetch notebook
+response = requests.get(notebook_url)
+if response.status_code == 200:
+    notebook_content = response.text
+    nb_node = nbformat.reads(notebook_content, as_version=4)
+
+    # Execute the notebook
+    client = NotebookClient(nb_node)
+    client.execute()
+
+    # Display executed notebook content
+    print(nbformat.writes(nb_node, version=4))
+else:
+    print("Error: Unable to download notebook!")
+```
+

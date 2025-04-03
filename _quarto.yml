@@ -1,18 +1,18 @@
 project:
   type: website
+  output-dir: _site
+
 website:
-  title: "Kevin's Website"
-  site-url: "https://klopezasc4.github.io/"
-  repo-url: "https://github.com/KevinASC4/KevinASC4.github.io"
+  title: "Kevin Lopez Sepulveda"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About
-      - href: project.qmd
-        text: Past Projects
-format:
-  html:
-    theme: journal
-    toc: true
+        text: About Me
+      - href: nyt.qmd
+        text: NYT Article Spotlight
+      - href: syracuseUniversity.qmd
+        text: Syracuse University
+      - href: bostonUniversity.qmd
+        text: Boston University

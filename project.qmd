@@ -1,6 +1,0 @@
----
-title: "Project"
-picture: CuteFace.jpg
----
-
-drid asf
