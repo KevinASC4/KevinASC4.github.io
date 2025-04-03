@@ -1,4 +1,112 @@
 ---
-title: "About"
+title: "About Me"
+author: "Kevin Adrian Lopez Sepulveda"
+date: today
+format:
+  html:
+    toc: true
+    theme: cosmo
+    css: styles.css
+    number-sections: true
+editor: visual
+---
+
+:::{figure}
+![Profile Picture](images/CuteFace.jpg){width=100%}  <!-- Adjusted to take full width -->
+Caption: This is a very rare photo of me in 2018.
+:::
+
+
+# About Me  
+
+Hello! I'm **Kevin Lopez**, a **Computer Science** graduate from **Syracuse University** and a current **Applied Data Analytics** master's student at **Boston University**. I specialize in **data science, software engineering, and machine learning**.  
+
+My journey into the world of coding began in **2018** when I participated in the **All Star Code** program. This coding bootcamp was instrumental in shaping my passion for technology and programming. Through rigorous training, mentorship, and hands-on projects, I gained foundational skills in software development that sparked my interest in pursuing a career in tech. The experience not only equipped me with essential programming languages like Python and JavaScript but also taught me the importance of collaboration and problem-solving in a team environment. You can see the projects related to this in my github with OATH and Firebase. I also had my introduction to APIs during this time as well.
+
+As a result of my experience with All Star Code, I incorporated **ASC4** into my GitHub username, representing my affiliation with **Cohort 4** of the program in the Cisco Offices near Madison Square Garden. Them being my introduction to Github has provided me with this time capsule encapsulating my beginnings to programming. This identifier serves as a reminder of the pivotal role the bootcamp played in my journey and my commitment to continuing growth in the tech field. You can check out the coding bootcamp and learn more about their mission [here](https://allstarcode.org).
+
+I have a passion for working on **AI, full-stack development, and data-driven solutions**. Here, you can learn more about my background, education, and experiences.  
+
+
+## 🎓 Education  
+- **Boston University, Metropolitan College** (M.S. Applied Data Analytics, Aug 2025)  
+- **Syracuse University, College of Engineering and Computer Science** (B.S. Computer Science, May 2024)  
+
+---
+
+## 💼 Work Experience  
+- **Broadridge Financial Solutions** - Global Tech Operations Intern  
+- **Cardinal Health** - Fuse Intern  
+- **Johnson Controls** - Software Automation Intern  
+
+For full details, check out my [GitHub](https://github.com/KevinASC4) or [LinkedIn](https://www.linkedin.com/in/kevin-lopez1).  
+
+---
+
+
+## ⚽ Hobbies  
+
+### ⚽ Soccer: The Beautiful Game  
+Soccer has been more than just a sport for me—it’s a passion that has shaped my teamwork, strategic thinking, and perseverance. Whether I’m on the field playing as a midfielder(Very rare nowadays) or watching the World Cup Qualifiers, I love the fluidity and tactical depth of the game. I enjoy analyzing team formations, player movement, and the psychology behind decision-making under pressure.  
+
+Beyond just playing, I also like keeping up with soccer analytics, exploring how data science is used to evaluate player performance, predict match outcomes, and optimize team strategies. The intersection of **sports and technology** fascinates me, and I often explore statistical models used in player scouting and game predictions.  
+
+---
+
+### 🎮 Video Games: More Than Just Play  
+Gaming has always been a huge part of my life, both as a player and as a tech enthusiast. I enjoy a wide variety of genres, from strategy games that challenge my problem-solving skills to fast-paced shooters that require precision and quick thinking.  
+
+- **Favorite Genres**: FPS, Open-World Games, Strategy
+- **Go-to Games**: Fortnite, COD, Minecraft, GTA, Blackhack
+- **What I Love About Gaming**: The mix of competition, creativity, and storytelling  
+
+My interest in gaming extends beyond playing—I also love **game development**. I have explored Unity and Unreal Engine, learning how mechanics like physics engines, AI behavior, and procedural generation work. I’m fascinated by how **game theory, decision trees, and AI models** influence the design of NPC behavior and competitive AI in video games.  
+
+---
+
+### ♟️ Game Theory & Strategic Thinking  
+Game theory is an area where my interest in logic, mathematics, and decision-making come together. I enjoy learning about **optimal strategies, Nash equilibrium, and probability models**—not just in games, but in real-world applications like economics, cybersecurity, and artificial intelligence.  
+
+One of my favorite ways to apply game theory is through **Card Games, like blackjack, and AI-driven simulations**. I like breaking down strategic interactions, whether it’s finding the best move in a hand or analyzing how companies compete in a pricing war using **Prisoner’s Dilemma** concepts.  
+
+Additionally, I’ve explored the use of **machine learning in game strategy**, particularly reinforcement learning algorithms that teach AI how to make smarter decisions over time. This area closely relates to AI-driven competition, like training bots to play games such as Dota 2, Starcraft, and Go.  
+
+---
+
+### 🎵 Music & Creative Interests  
+Beyond tech and strategy, I also have a strong appreciation for music. I enjoy discovering new genres, exploring music production tools, and sometimes even experimenting with creating beats. The way music influences mood, productivity, and even cognitive function is something that fascinates me.  
+
+- **Favorite Genres**: Lo-fi, Hip-Hop, Rap, R&B, Reggaeton
+- **Favorite Artists**: Sheff G, Drake, Feid, Usher, Ne-Yo, Lil wayne
+- **Interests**: Making music myself as a personal side hobby 
+
+---
+
+### 🏔️ Traveling & Exploration  
+I love traveling and experiencing new cultures, whether it’s through food, language, or local traditions. Exploring different places gives me a fresh perspective and helps me understand how technology, infrastructure, and society evolve across the world. Some of my dream travel destinations include Japan, Germany, and Iceland, where I’d love to explore both modern cities and natural landscapes.  
+
+---
+
+## 🔹 Brotherhood & Leadership  
+
+During my time at **Syracuse University**, I had the honor of joining **Latino America Unida, Lambda Alpha Upsilon Fraternity Inc.** This organization has been a defining part of my college experience, allowing me to grow as a leader and serve my community. Spring 2019, Pi chapter in the house!
+
+As an Hermano, I held several leadership roles, including:  
+
+- **Treasurer** – Managed financial budgets and allocations.  
+- **Recruitment Chair** – Led initiatives to bring in new members.  
+- **Secretary** – Documented meeting minutes and handled internal communications.  
+- **National Webmaster** – Revamped and maintained the fraternity's national website.  
+
+Being part of **Lambda Alpha Upsilon** has provided me with an incredible support system and a lifelong network of like-minded individuals who are dedicated to **academic excellence, community service, and professional success**. It also strengthened my skills in **event organization, teamwork, and digital transformation**, especially in modernizing the fraternity's online presence.  
+
+If you're interested in learning more about **Lambda Alpha Upsilon**, you can visit the official website [here](https://www.lambdas.com/).  
+
+---
+
+## 📩 Contact Me  
+- 📧 Email: [lopezsepulvedakevinadrian@gmail.com](mailto:lopezsepulvedakevinadrian@gmail.com)  
+- 💼 LinkedIn: [Kevin Lopez Sepulveda](https://www.linkedin.com/in/kevin-lopez1)  
+
 ---
 

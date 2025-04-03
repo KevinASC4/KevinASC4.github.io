@@ -1,1 +1,17 @@
+# Core dependencies
+jupyter
+jupyterlab
+nbclient
+nbconvert
+nbformat
+ipykernel
+ipywidgets
 
+# Quarto
+quarto
+
+# Visualization tools
+matplotlib
+seaborn
+pandas
+numpy

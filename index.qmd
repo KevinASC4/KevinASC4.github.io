@@ -1,20 +1,42 @@
 ---
-title: "Welcome to My Website"
-author: "Kevin Lopez Sepulveda"
-date: "2025-01-26"
+title: "Kevin Lopez"
+author: "Kevin Adrian Lopez Sepulveda"
+date: today
 format:
   html:
-    theme: journal
     toc: true
-site: 
-  title: "Kevin's Quarto Site"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About Me 
-      - href: project.qmd
-        text: Past Projects
+    theme: cosmo
+    css: styles.css
+    number-sections: true
+editor: visual
 ---
-![Profile Picture](./images/CuteFace.jpg){width=400px}
+
+# Welcome to My Portfolio 
+:::{figure}
+![Profile Picture](images/Convention-Photo-KALS.jpg){width=100%}  <!-- Adjusted to take full width -->
+Caption: This was taken during my fraternity convention in 2023.
+::: 
+
+## About Me  
+Hello! I'm **Kevin Lopez**, a **Computer Science** graduate from **Syracuse University** and a current **Applied Data Analytics** master's student at **Boston University**. I have experience in **data science, software engineering, and machine learning**.  
+
+Feel free to explore my projects and coursework below!  
+
+---
+
+## 🔗 Quick Links  
+
+- 🔥 [My GitHub Repository](https://github.com/KevinASC4) - Access all my projects and coursework  
+- 🎓 [Syracuse University Projects](syracuseUniversity.qmd) - View my work from Syracuse University  
+- 🎓 [Boston University Projects](syracuseUniversity.qmd) - View my work from Syracuse University 
+- 📂 [New York Times Article](nyt.qmd) - View this article about me
+
+---
+
+## 📩 Contact Me  
+
+- 📧 Email: [lopezsepulvedakevinadrian@gmail.com](mailto:lopezsepulvedakevinadrian@gmail.com)  
+- 💼 LinkedIn: [Kevin Adrian Lopez Sepulveda](https://www.linkedin.com/in/kevin-lopez1)  
+
+---
+
