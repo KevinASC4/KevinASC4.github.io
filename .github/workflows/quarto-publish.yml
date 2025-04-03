@@ -3,7 +3,7 @@ name: Quarto Publish
 on:
   push:
     branches:
-      - origin # Trigger deployment on push to the main branch
+      - origin/gh-pages # Trigger deployment on push to the main branch
 
 jobs:
   build-deploy:
