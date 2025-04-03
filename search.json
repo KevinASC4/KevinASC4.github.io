@@ -1,16 +1,128 @@
 [
   {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Project",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "drid asf"
+    "text": "Caption: This is a very rare photo of me in 2018."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "1.1 🎓 Education",
+    "text": "1.1 🎓 Education\n\nBoston University, Metropolitan College (M.S. Applied Data Analytics, Aug 2025)\n\nSyracuse University, College of Engineering and Computer Science (B.S. Computer Science, May 2024)"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About Me",
+    "section": "1.2 💼 Work Experience",
+    "text": "1.2 💼 Work Experience\n\nBroadridge Financial Solutions - Global Tech Operations Intern\n\nCardinal Health - Fuse Intern\n\nJohnson Controls - Software Automation Intern\n\nFor full details, check out my GitHub or LinkedIn."
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About Me",
+    "section": "1.3 ⚽ Hobbies",
+    "text": "1.3 ⚽ Hobbies\n\n1.3.1 ⚽ Soccer: The Beautiful Game\nSoccer has been more than just a sport for me—it’s a passion that has shaped my teamwork, strategic thinking, and perseverance. Whether I’m on the field playing as a midfielder(Very rare nowadays) or watching the World Cup Qualifiers, I love the fluidity and tactical depth of the game. I enjoy analyzing team formations, player movement, and the psychology behind decision-making under pressure.\nBeyond just playing, I also like keeping up with soccer analytics, exploring how data science is used to evaluate player performance, predict match outcomes, and optimize team strategies. The intersection of sports and technology fascinates me, and I often explore statistical models used in player scouting and game predictions.\n\n\n\n1.3.2 🎮 Video Games: More Than Just Play\nGaming has always been a huge part of my life, both as a player and as a tech enthusiast. I enjoy a wide variety of genres, from strategy games that challenge my problem-solving skills to fast-paced shooters that require precision and quick thinking.\n\nFavorite Genres: FPS, Open-World Games, Strategy\nGo-to Games: Fortnite, COD, Minecraft, GTA, Blackhack\nWhat I Love About Gaming: The mix of competition, creativity, and storytelling\n\nMy interest in gaming extends beyond playing—I also love game development. I have explored Unity and Unreal Engine, learning how mechanics like physics engines, AI behavior, and procedural generation work. I’m fascinated by how game theory, decision trees, and AI models influence the design of NPC behavior and competitive AI in video games.\n\n\n\n1.3.3 ♟️ Game Theory & Strategic Thinking\nGame theory is an area where my interest in logic, mathematics, and decision-making come together. I enjoy learning about optimal strategies, Nash equilibrium, and probability models—not just in games, but in real-world applications like economics, cybersecurity, and artificial intelligence.\nOne of my favorite ways to apply game theory is through Card Games, like blackjack, and AI-driven simulations. I like breaking down strategic interactions, whether it’s finding the best move in a hand or analyzing how companies compete in a pricing war using Prisoner’s Dilemma concepts.\nAdditionally, I’ve explored the use of machine learning in game strategy, particularly reinforcement learning algorithms that teach AI how to make smarter decisions over time. This area closely relates to AI-driven competition, like training bots to play games such as Dota 2, Starcraft, and Go.\n\n\n\n1.3.4 🎵 Music & Creative Interests\nBeyond tech and strategy, I also have a strong appreciation for music. I enjoy discovering new genres, exploring music production tools, and sometimes even experimenting with creating beats. The way music influences mood, productivity, and even cognitive function is something that fascinates me.\n\nFavorite Genres: Lo-fi, Hip-Hop, Rap, R&B, Reggaeton\nFavorite Artists: Sheff G, Drake, Feid, Usher, Ne-Yo, Lil wayne\nInterests: Making music myself as a personal side hobby\n\n\n\n\n1.3.5 🏔️ Traveling & Exploration\nI love traveling and experiencing new cultures, whether it’s through food, language, or local traditions. Exploring different places gives me a fresh perspective and helps me understand how technology, infrastructure, and society evolve across the world. Some of my dream travel destinations include Japan, Germany, and Iceland, where I’d love to explore both modern cities and natural landscapes."
+  },
+  {
+    "objectID": "about.html#brotherhood-leadership",
+    "href": "about.html#brotherhood-leadership",
+    "title": "About Me",
+    "section": "1.4 🔹 Brotherhood & Leadership",
+    "text": "1.4 🔹 Brotherhood & Leadership\nDuring my time at Syracuse University, I had the honor of joining Latino America Unida, Lambda Alpha Upsilon Fraternity Inc. This organization has been a defining part of my college experience, allowing me to grow as a leader and serve my community. Spring 2019, Pi chapter in the house!\nAs an Hermano, I held several leadership roles, including:\n\nTreasurer – Managed financial budgets and allocations.\n\nRecruitment Chair – Led initiatives to bring in new members.\n\nSecretary – Documented meeting minutes and handled internal communications.\n\nNational Webmaster – Revamped and maintained the fraternity’s national website.\n\nBeing part of Lambda Alpha Upsilon has provided me with an incredible support system and a lifelong network of like-minded individuals who are dedicated to academic excellence, community service, and professional success. It also strengthened my skills in event organization, teamwork, and digital transformation, especially in modernizing the fraternity’s online presence.\nIf you’re interested in learning more about Lambda Alpha Upsilon, you can visit the official website here."
+  },
+  {
+    "objectID": "about.html#contact-me",
+    "href": "about.html#contact-me",
+    "title": "About Me",
+    "section": "1.5 📩 Contact Me",
+    "text": "1.5 📩 Contact Me\n\n📧 Email: lopezsepulvedakevinadrian@gmail.com\n\n💼 LinkedIn: Kevin Lopez Sepulveda"
+  },
+  {
+    "objectID": "syracuseUniversity.html",
+    "href": "syracuseUniversity.html",
+    "title": "Syracuse University",
+    "section": "",
+    "text": "You can find all my class projects and materials in my GitHub repository:\nVisit my GitHub Syracuse Classes"
+  },
+  {
+    "objectID": "syracuseUniversity.html#my-github-repository-for-class-materials",
+    "href": "syracuseUniversity.html#my-github-repository-for-class-materials",
+    "title": "Syracuse University",
+    "section": "",
+    "text": "You can find all my class projects and materials in my GitHub repository:\nVisit my GitHub Syracuse Classes"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Website",
+    "title": "Kevin Lopez",
     "section": "",
-    "text": "Profile Picture"
+    "text": "Caption: This was taken during my fraternity convention in 2023.\n\n\n\nHello! I’m Kevin Lopez, a Computer Science graduate from Syracuse University and a current Applied Data Analytics master’s student at Boston University. I have experience in data science, software engineering, and machine learning.\nFeel free to explore my projects and coursework below!\n\n\n\n\n\n🔥 My GitHub Repository - Access all my projects and coursework\n\n🎓 Syracuse University Projects - View my work from Syracuse University\n\n🎓 Boston University Projects - View my work from Syracuse University\n📂 New York Times Article - View this article about me\n\n\n\n\n\n\n📧 Email: lopezsepulvedakevinadrian@gmail.com\n\n💼 LinkedIn: Kevin Adrian Lopez Sepulveda"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Kevin Lopez",
+    "section": "",
+    "text": "Hello! I’m Kevin Lopez, a Computer Science graduate from Syracuse University and a current Applied Data Analytics master’s student at Boston University. I have experience in data science, software engineering, and machine learning.\nFeel free to explore my projects and coursework below!"
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Kevin Lopez",
+    "section": "",
+    "text": "🔥 My GitHub Repository - Access all my projects and coursework\n\n🎓 Syracuse University Projects - View my work from Syracuse University\n\n🎓 Boston University Projects - View my work from Syracuse University\n📂 New York Times Article - View this article about me"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Kevin Lopez",
+    "section": "",
+    "text": "📧 Email: lopezsepulvedakevinadrian@gmail.com\n\n💼 LinkedIn: Kevin Adrian Lopez Sepulveda"
+  },
+  {
+    "objectID": "nyt.html",
+    "href": "nyt.html",
+    "title": "Kevin Lopez Sepulveda",
+    "section": "",
+    "text": "I had the incredible opportunity to be featured in The New York Times article, “24, and Trying to Outrun Schizophrenia”. The article highlights the immense challenges that individuals with schizophrenia face—challenges that often make it difficult to maintain stability, pursue education, or achieve career goals. Schizophrenia is a condition that affects cognition, perception, and emotional regulation, and for many, it can be a barrier to leading an independent life. The statistics paint a harsh reality: many who are diagnosed struggle with employment, education, and personal well-being.\nDespite these challenges, I refuse to let schizophrenia define my future. Instead of becoming a statistic, I am pushing forward, proving that with perseverance, the right support system, and a relentless drive, it is possible to defy the odds. My passion for computer science, data analytics, and machine learning has driven me to excel academically and professionally. From earning my degree at Syracuse University to pursuing my Master’s in Applied Data Analytics at Boston University, I am continuously working toward breaking barriers in the tech industry.\nMental health conditions like schizophrenia often come with societal stigma, misconceptions, and underrepresentation in fields like STEM. By sharing my journey, I hope to inspire others facing similar challenges to recognize their own potential, seek the support they need, and pursue their dreams unapologetically. My story is not just about overcoming adversity—it’s about reshaping narratives, challenging expectations, and proving that success is possible no matter the obstacles."
+  },
+  {
+    "objectID": "nyt.html#featured-in-the-new-york-times",
+    "href": "nyt.html#featured-in-the-new-york-times",
+    "title": "Kevin Lopez Sepulveda",
+    "section": "",
+    "text": "I had the incredible opportunity to be featured in The New York Times article, “24, and Trying to Outrun Schizophrenia”. The article highlights the immense challenges that individuals with schizophrenia face—challenges that often make it difficult to maintain stability, pursue education, or achieve career goals. Schizophrenia is a condition that affects cognition, perception, and emotional regulation, and for many, it can be a barrier to leading an independent life. The statistics paint a harsh reality: many who are diagnosed struggle with employment, education, and personal well-being.\nDespite these challenges, I refuse to let schizophrenia define my future. Instead of becoming a statistic, I am pushing forward, proving that with perseverance, the right support system, and a relentless drive, it is possible to defy the odds. My passion for computer science, data analytics, and machine learning has driven me to excel academically and professionally. From earning my degree at Syracuse University to pursuing my Master’s in Applied Data Analytics at Boston University, I am continuously working toward breaking barriers in the tech industry.\nMental health conditions like schizophrenia often come with societal stigma, misconceptions, and underrepresentation in fields like STEM. By sharing my journey, I hope to inspire others facing similar challenges to recognize their own potential, seek the support they need, and pursue their dreams unapologetically. My story is not just about overcoming adversity—it’s about reshaping narratives, challenging expectations, and proving that success is possible no matter the obstacles."
+  },
+  {
+    "objectID": "bostonUniversity.html",
+    "href": "bostonUniversity.html",
+    "title": "Boston University Coursework",
+    "section": "",
+    "text": "Welcome to my Boston University coursework page. Below, you’ll find a list of courses I’ve taken, along with code execution from my assignments and projects. I have utilized a majority of R and python for my courses. All files can be found on my Github repository linked below\n\n\n\n\n\nThe goal of this course is to equip students with the mathematical and practical skills necessary for success in the field of data analytics. Throughout the course, we reviewed essential concepts in probability and statistics while gaining hands-on experience with the R programming language for statistical computing and graphics. We explored various types of data and delved into data summarization techniques, including visualizations such as histograms, boxplots, and scatter plots.\nLearning about histograms was particularly impactful for my understanding of data analysis. Histograms provided a powerful way to visualize the distribution of continuous data, allowing me to identify patterns, trends, and outliers within datasets. By representing data in this manner, I gained insights into the underlying structure of the data, which is crucial for effective decision-making.\nIn addition to histograms, the course covered the analysis of discrete, continuous, and multivariate distributions, enabling me to grasp how different data populations behave. We also examined common errors in measurements and computations, which emphasized the importance of accuracy in data analysis. Topics such as confidence intervals and hypothesis testing were integral to the curriculum, as they formed the basis for making data-driven conclusions.\nBy the end of the course, I not only gained proficiency in R for data visualization and analysis but also developed a solid foundation in the statistical concepts that underpin effective data analytics. The combination of theoretical knowledge and practical application has significantly enhanced my analytical skills, preparing me for more advanced studies and real-world data challenges. An example of what I was doing can be found below.\n\n\n\n# Run the external R script using the raw GitHub URL\nscript_url &lt;- 'https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS544-BU/hw10.R'\noutput &lt;- source(script_url, echo = FALSE)\n\n# Print output to ensure it's shown\nprint(output)\n\n\n\n\n\n\nBy working through various algorithmic challenges, I gained a deep understanding of how different algorithms operate and their efficiencies. Learning about dynamic programming and greedy algorithms was particularly valuable, as it equipped me with the techniques to solve complex problems optimally. Implementing algorithms in programming assignments reinforced my coding skills and helped me appreciate the importance of algorithmic efficiency in software development.\nOverall, this course significantly enhanced my problem-solving abilities and provided me with a solid foundation for future studies in computer science and data analytics.\n\n\n\n\n\n\nIn the CS677 - Data Science with Python course, students learn major Python tools and techniques for data analysis. The course covers various topics through weekly assignments and mini-projects, allowing students to build essential statistical, visualization, and data science skills necessary for effective data usage in diverse applications, including finance, text processing, time series analysis, and recommendation systems.\nA significant focus of the course is on basic machine learning techniques, such as linear regression. Understanding linear regression was particularly beneficial as it provided insights into how to model relationships between variables and make predictions based on data. Through practical implementations and visualizations, I learned how to evaluate model performance and apply these techniques to real-world datasets.\nAdditionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.\n\nimport requests\nimport nbformat\nfrom nbclient import NotebookClient\n\n# GitHub raw URL of the Jupyter Notebook\nnotebook_url = \"https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS677-BU/files_for_HW3_Seaborn/files_for_HW3_Seaborn/files_for_HW3/HW3_Seaborn.ipynb\"\n\n# Fetch notebook\nresponse = requests.get(notebook_url)\n#if response.status_code == 200:\n #   notebook_content = response.text\n #   nb_node = nbformat.reads(notebook_content, as_version=4)\n\n    # Execute the notebook\n  #  client = NotebookClient(nb_node)\n   # client.execute()\n\n    # Display executed notebook content\n   # print(nbformat.writes(nb_node, version=4))\n#else:\n#    print(\"Error: Unable to download notebook!\")"
+  },
+  {
+    "objectID": "bostonUniversity.html#cs544---foundations-of-analytics-and-data-visualization",
+    "href": "bostonUniversity.html#cs544---foundations-of-analytics-and-data-visualization",
+    "title": "Boston University Coursework",
+    "section": "",
+    "text": "The goal of this course is to equip students with the mathematical and practical skills necessary for success in the field of data analytics. Throughout the course, we reviewed essential concepts in probability and statistics while gaining hands-on experience with the R programming language for statistical computing and graphics. We explored various types of data and delved into data summarization techniques, including visualizations such as histograms, boxplots, and scatter plots.\nLearning about histograms was particularly impactful for my understanding of data analysis. Histograms provided a powerful way to visualize the distribution of continuous data, allowing me to identify patterns, trends, and outliers within datasets. By representing data in this manner, I gained insights into the underlying structure of the data, which is crucial for effective decision-making.\nIn addition to histograms, the course covered the analysis of discrete, continuous, and multivariate distributions, enabling me to grasp how different data populations behave. We also examined common errors in measurements and computations, which emphasized the importance of accuracy in data analysis. Topics such as confidence intervals and hypothesis testing were integral to the curriculum, as they formed the basis for making data-driven conclusions.\nBy the end of the course, I not only gained proficiency in R for data visualization and analysis but also developed a solid foundation in the statistical concepts that underpin effective data analytics. The combination of theoretical knowledge and practical application has significantly enhanced my analytical skills, preparing me for more advanced studies and real-world data challenges. An example of what I was doing can be found below.\n\n\n\n# Run the external R script using the raw GitHub URL\nscript_url &lt;- 'https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS544-BU/hw10.R'\noutput &lt;- source(script_url, echo = FALSE)\n\n# Print output to ensure it's shown\nprint(output)"
+  },
+  {
+    "objectID": "bostonUniversity.html#cs566---analysis-of-algorithms",
+    "href": "bostonUniversity.html#cs566---analysis-of-algorithms",
+    "title": "Boston University Coursework",
+    "section": "",
+    "text": "By working through various algorithmic challenges, I gained a deep understanding of how different algorithms operate and their efficiencies. Learning about dynamic programming and greedy algorithms was particularly valuable, as it equipped me with the techniques to solve complex problems optimally. Implementing algorithms in programming assignments reinforced my coding skills and helped me appreciate the importance of algorithmic efficiency in software development.\nOverall, this course significantly enhanced my problem-solving abilities and provided me with a solid foundation for future studies in computer science and data analytics."
+  },
+  {
+    "objectID": "bostonUniversity.html#cs677---data-science-with-python",
+    "href": "bostonUniversity.html#cs677---data-science-with-python",
+    "title": "Boston University Coursework",
+    "section": "",
+    "text": "In the CS677 - Data Science with Python course, students learn major Python tools and techniques for data analysis. The course covers various topics through weekly assignments and mini-projects, allowing students to build essential statistical, visualization, and data science skills necessary for effective data usage in diverse applications, including finance, text processing, time series analysis, and recommendation systems.\nA significant focus of the course is on basic machine learning techniques, such as linear regression. Understanding linear regression was particularly beneficial as it provided insights into how to model relationships between variables and make predictions based on data. Through practical implementations and visualizations, I learned how to evaluate model performance and apply these techniques to real-world datasets.\nAdditionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.\n\nimport requests\nimport nbformat\nfrom nbclient import NotebookClient\n\n# GitHub raw URL of the Jupyter Notebook\nnotebook_url = \"https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS677-BU/files_for_HW3_Seaborn/files_for_HW3_Seaborn/files_for_HW3/HW3_Seaborn.ipynb\"\n\n# Fetch notebook\nresponse = requests.get(notebook_url)\n#if response.status_code == 200:\n #   notebook_content = response.text\n #   nb_node = nbformat.reads(notebook_content, as_version=4)\n\n    # Execute the notebook\n  #  client = NotebookClient(nb_node)\n   # client.execute()\n\n    # Display executed notebook content\n   # print(nbformat.writes(nb_node, version=4))\n#else:\n#    print(\"Error: Unable to download notebook!\")"
   }
 ]
