@@ -45,26 +45,6 @@ A significant focus of the course is on basic machine learning techniques, such 
 
 Additionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.
 ```{python}
-import requests
-import nbformat
-from nbclient import NotebookClient
-
-# GitHub raw URL of the Jupyter Notebook
-notebook_url = "https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS677-BU/files_for_HW3_Seaborn/files_for_HW3_Seaborn/files_for_HW3/HW3_Seaborn.ipynb"
-
-# Fetch notebook
-response = requests.get(notebook_url)
-#if response.status_code == 200:
- #   notebook_content = response.text
- #   nb_node = nbformat.reads(notebook_content, as_version=4)
-
-    # Execute the notebook
-  #  client = NotebookClient(nb_node)
-   # client.execute()
-
-    # Display executed notebook content
-   # print(nbformat.writes(nb_node, version=4))
-#else:
-#    print("Error: Unable to download notebook!")
+%run CS677DemoFile.py
 ```
 
