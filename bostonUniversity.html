@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-831a6e13d34e89ab8943621a9b1bffba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -213,28 +213,77 @@ print(output)</code></pre>
 <p>In the CS677 - Data Science with Python course, students learn major Python tools and techniques for data analysis. The course covers various topics through weekly assignments and mini-projects, allowing students to build essential statistical, visualization, and data science skills necessary for effective data usage in diverse applications, including finance, text processing, time series analysis, and recommendation systems.</p>
 <p>A significant focus of the course is on basic machine learning techniques, such as linear regression. Understanding linear regression was particularly beneficial as it provided insights into how to model relationships between variables and make predictions based on data. Through practical implementations and visualizations, I learned how to evaluate model performance and apply these techniques to real-world datasets.</p>
 <p>Additionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.</p>
-<div id="dc4c1fc4" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nbformat</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nbclient <span class="im">import</span> NotebookClient</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># GitHub raw URL of the Jupyter Notebook</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>notebook_url <span class="op">=</span> <span class="st">"https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS677-BU/files_for_HW3_Seaborn/files_for_HW3_Seaborn/files_for_HW3/HW3_Seaborn.ipynb"</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Fetch notebook</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> requests.get(notebook_url)</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#if response.status_code == 200:</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a> <span class="co">#   notebook_content = response.text</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> <span class="co">#   nb_node = nbformat.reads(notebook_content, as_version=4)</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Execute the notebook</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="co">#  client = NotebookClient(nb_node)</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>   <span class="co"># client.execute()</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Display executed notebook content</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>   <span class="co"># print(nbformat.writes(nb_node, version=4))</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co">#else:</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co">#    print("Error: Unable to download notebook!")</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="8a6b1e05" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>run CS677DemoFile.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 438557 entries, 0 to 438556
+Data columns (total 18 columns):
+ #   Column               Non-Null Count   Dtype  
+---  ------               --------------   -----  
+ 0   ID                   438557 non-null  int64  
+ 1   CODE_GENDER          438557 non-null  object 
+ 2   FLAG_OWN_CAR         438557 non-null  object 
+ 3   FLAG_OWN_REALTY      438557 non-null  object 
+ 4   CNT_CHILDREN         438557 non-null  int64  
+ 5   AMT_INCOME_TOTAL     438557 non-null  float64
+ 6   NAME_INCOME_TYPE     438557 non-null  object 
+ 7   NAME_EDUCATION_TYPE  438557 non-null  object 
+ 8   NAME_FAMILY_STATUS   438557 non-null  object 
+ 9   NAME_HOUSING_TYPE    438557 non-null  object 
+ 10  DAYS_BIRTH           438557 non-null  int64  
+ 11  DAYS_EMPLOYED        438557 non-null  int64  
+ 12  FLAG_MOBIL           438557 non-null  int64  
+ 13  FLAG_WORK_PHONE      438557 non-null  int64  
+ 14  FLAG_PHONE           438557 non-null  int64  
+ 15  FLAG_EMAIL           438557 non-null  int64  
+ 16  OCCUPATION_TYPE      304354 non-null  object 
+ 17  CNT_FAM_MEMBERS      438557 non-null  float64
+dtypes: float64(2), int64(8), object(8)
+memory usage: 60.2+ MB</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/home/runner/work/KevinASC4.github.io/KevinASC4.github.io/CS677DemoFile.py:187: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_employed['DAYS_BIRTH'] = df_employed['DAYS_BIRTH'].abs()  # Make age positive
+/home/runner/work/KevinASC4.github.io/KevinASC4.github.io/CS677DemoFile.py:188: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_employed['DAYS_EMPLOYED'] = df_employed['DAYS_EMPLOYED'].abs()  # Make days employed positive</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bostonUniversity_files/figure-html/cell-2-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bostonUniversity_files/figure-html/cell-2-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bostonUniversity_files/figure-html/cell-2-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="bostonUniversity_files/figure-html/cell-2-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
 </div>
 
 
