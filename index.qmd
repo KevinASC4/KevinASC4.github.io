@@ -20,7 +20,7 @@ Caption: This was taken during my fraternity convention in 2023.
 ## About Me  
 Hello! I'm **Kevin Lopez**, a **Computer Science** graduate from **Syracuse University** and a current **Applied Data Analytics** master's student at **Boston University**. I have experience in **data science, software engineering, and machine learning**.  
 
-Feel free to explore my projects and coursework below!  
+Feel free to explore my other pages below! 
 
 ---
 
@@ -28,7 +28,7 @@ Feel free to explore my projects and coursework below!
 
 - 🔥 [My GitHub Repository](https://github.com/KevinASC4) - Access all my projects and coursework  
 - 🎓 [Syracuse University Projects](syracuseUniversity.qmd) - View my work from Syracuse University  
-- 🎓 [Boston University Projects](syracuseUniversity.qmd) - View my work from Syracuse University 
+- 🎓 [Boston University Projects](syracuseUniversity.qmd) - View my work from Boston University 
 - 📂 [New York Times Article](nyt.qmd) - View this article about me
 
 ---
