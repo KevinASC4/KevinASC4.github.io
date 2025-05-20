@@ -1,0 +1,9 @@
+## HW10 Output
+
+```{r}
+source("bostonUniversity_files/BostonCSFilesRaw/hw10.R")
+```
+
+### 📊 Probability Histogram
+
+![](images\probability_histogram-HW10-METCS544.png)

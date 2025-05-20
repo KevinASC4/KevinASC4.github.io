@@ -1,11 +1,20 @@
+# Load required packages
+if (!require("knitr")) install.packages("knitr")
+library(knitr)
+
 # Sample probability distribution
-outcomes <- c(0, 1, 2, 3, 4, 5,6,7)
+outcomes <- c(0, 1, 2, 3, 4, 5, 6, 7)
 probabilities <- c(0.4, 0.28, 0.16, 0.05, 0.04, 0.03, 0.02, 0.02)
 
-# Rounding the 'times' argument to avoid non-integer values
+# Print outcomes and probabilities as a table
+print("Outcomes and Their Probabilities:")
+kable(data.frame(Outcome = outcomes, Probability = probabilities), format = "markdown")
+
+# Histogram data
 hist_data <- rep(outcomes, times = round(probabilities * 100))
 
-# Creating a histogram
+# Save histogram with line to a PNG file
+png("images/probability_histogram-HW10-METCS544.png", width = 700, height = 500)
 hist(hist_data, 
      breaks = length(outcomes), 
      col = "skyblue", 
@@ -13,27 +22,25 @@ hist(hist_data,
      xlab = "Outcomes", 
      ylab = "Frequency", 
      probability = TRUE)
-
-# Adding probability distribution as a line
 lines(outcomes, probabilities, type = "b", pch = 19, col = "red")
+dev.off()
+
 # Calculating the mean
 mean_value <- sum(outcomes * probabilities)
-mean_value
+print(paste("Mean value:", mean_value))
+
 # Calculating the standard deviation
 std_dev <- sqrt(sum((outcomes - mean_value)^2 * probabilities))
-std_dev
+print(paste("Standard Deviation:", std_dev))
 
-# Define profits and probabilities
+# --- Second Problem: Expected Profit ---
 profits <- c(-90000, 70000, 200000)
-probabilities <- c(0.40, 0.45, 0.15)
+profit_probs <- c(0.40, 0.45, 0.15)
+expected_profit <- sum(profits * profit_probs)
+print(paste("Expected Profit:", expected_profit))
 
-# Calculate the expected profit
-expected_profit <- sum(profits * probabilities)
-expected_profit
-# Define winnings and probabilities
+# --- Third Problem: Expected Winnings ---
 winnings <- c(50, 10, -5)
-probabilities <- c(0.0556, 0.1667, 0.7777)
-
-# Calculate the expected winnings
-expected_winnings <- sum(winnings * probabilities)
-expected_winnings
+winnings_probs <- c(0.0556, 0.1667, 0.7777)
+expected_winnings <- sum(winnings * winnings_probs)
+print(paste("Expected Winnings:", expected_winnings))

@@ -142,7 +142,7 @@ import matplotlib.pyplot as plt
 # </table>
 
 # %%
-df = pd.read_csv("bostonUniversity_files/BostonCSFilesRaw/application_record.csv")
+df = pd.read_csv("application_record.csv")
 
 # %%
 df.head(3)

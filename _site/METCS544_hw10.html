@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>nyt – Kevin Lopez Sepulveda</title>
+<title>metcs544_hw10 – Kevin Lopez Sepulveda</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -97,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./nyt.html" aria-current="page"> 
+    <a class="nav-link" href="./nyt.html"> 
 <span class="menu-text">NYT Article Spotlight</span></a>
   </li>  
   <li class="nav-item">
@@ -126,13 +161,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="featured-in-the-new-york-times" class="level2">
-<h2 class="anchored" data-anchor-id="featured-in-the-new-york-times">📰 Featured in The New York Times</h2>
-<p>I had the incredible opportunity to be featured in <em>The New York Times</em> article, <a href="https://www.nytimes.com/2024/12/30/health/schizophrenia-early-intervention-treatment.html">“24, and Trying to Outrun Schizophrenia”</a>. The article highlights the immense challenges that individuals with schizophrenia face—challenges that often make it difficult to maintain stability, pursue education, or achieve career goals. Schizophrenia is a condition that affects cognition, perception, and emotional regulation, and for many, it can be a barrier to leading an independent life. The statistics paint a harsh reality: many who are diagnosed struggle with employment, education, and personal well-being.</p>
-<p>Despite these challenges, I refuse to let schizophrenia define my future. Instead of becoming a statistic, I am pushing forward, proving that with perseverance, the right support system, and a relentless drive, it is possible to defy the odds. My passion for <strong>computer science, data analytics, and machine learning</strong> has driven me to excel academically and professionally. From earning my degree at <strong>Syracuse University</strong> to pursuing my <strong>Master’s in Applied Data Analytics at Boston University</strong>, I am continuously working toward breaking barriers in the tech industry.</p>
-<p>Mental health conditions like schizophrenia often come with societal stigma, misconceptions, and underrepresentation in fields like <strong>STEM</strong>. By sharing my journey, I hope to inspire others facing similar challenges to recognize their own potential, seek the support they need, and pursue their dreams unapologetically. My story is not just about overcoming adversity—it’s about reshaping narratives, challenging expectations, and proving that success is possible no matter the obstacles.</p>
+<section id="hw10-output" class="level2">
+<h2 class="anchored" data-anchor-id="hw10-output">HW10 Output</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"bostonUniversity_files/BostonCSFilesRaw/hw10.R"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: knitr</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Outcomes and Their Probabilities:"</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Mean value: 1.32"
+[1] "Standard Deviation: 1.64851448279959"
+[1] "Expected Profit: 25500"
+[1] "Expected Winnings: 0.5585"</code></pre>
+</div>
+</div>
+<section id="probability-histogram" class="level3">
+<h3 class="anchored" data-anchor-id="probability-histogram">📊 Probability Histogram</h3>
+<p><img src="images\probability_histogram-HW10-METCS544.png" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -26,11 +26,7 @@ By the end of the course, I not only gained proficiency in R for data visualizat
 
 ### **Running R Script**
 
-```{r}
-# Run the external R script using the raw GitHub URL
-script_path <- "bostonUniversity_files/BostonCSFilesRaw/hw10.R"
-cat(readLines(script_path), sep = "\n")
-```
+[See HW10 Results](METCS544_hw10.qmd)
 
 ## **CS566 - Analysis of Algorithms**  
 ### Course Summary
@@ -53,7 +49,20 @@ Additionally, students are required to choose a topic for a final project, which
 
 ```
 
-[Summary](bostonUniversity_files/BostonCSFilesRaw/CS677DemoFile.html)
+[Summary](CS677DemoFile.qmd)
 
+## **CS699 - Data Mining**  
+### Course Summary
+
+
+METCS699 – Data Mining is a graduate-level course at Boston University that introduces students to fundamental concepts and techniques in the field of data mining. The course emphasizes practical applications through hands-on exercises and projects using the R programming language.
+
+Key topics begin with data exploration and preprocessing, which involve understanding and preparing datasets for analysis. The course then moves into performance evaluation methods used to assess model accuracy and generalizability. Students study a variety of supervised learning algorithms, including k-nearest neighbors (KNN), Naïve Bayes, decision trees, logistic regression, support vector machines (SVM), and neural networks.
+
+As the course progresses, students delve into ensemble methods, which combine multiple models to improve predictive performance. They also explore association rule mining for discovering relationships between variables in large datasets, along with collaborative filtering techniques used in recommendation systems.
+
+In the later part of the course, students study unsupervised learning methods like clustering to identify patterns and groupings in unlabeled data. Time series analysis is also covered to equip students with tools for modeling and forecasting temporal data.
+
+A significant component of the course is a data mining project where students apply the concepts they've learned to a real-world dataset, culminating in a written report and presentation. Homework assignments reinforce lecture content and provide opportunities for individual practice. By the end of the course, students gain a comprehensive understanding of both theoretical and applied data mining techniques. Below is the link to the final project in this course.
 
 
