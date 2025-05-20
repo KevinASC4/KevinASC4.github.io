@@ -3,6 +3,8 @@ title: "Boston University Coursework"
 format: html
 editor: visual
 jupyter: python3
+resources:
+  - bostonUniversity_files/application_record.csv 
 ---
 
 # 📚 Boston University Coursework
@@ -23,16 +25,16 @@ In addition to histograms, the course covered the analysis of discrete, continuo
 By the end of the course, I not only gained proficiency in R for data visualization and analysis but also developed a solid foundation in the statistical concepts that underpin effective data analytics. The combination of theoretical knowledge and practical application has significantly enhanced my analytical skills, preparing me for more advanced studies and real-world data challenges. An example of what I was doing can be found below.
 
 ### **Running R Script**
+
 ```{r}
 # Run the external R script using the raw GitHub URL
-script_url <- 'https://raw.githubusercontent.com/KevinASC4/BostonUniversityCS/main/CS544-BU/hw10.R'
-output <- source(script_url, echo = FALSE)
-
-# Print output to ensure it's shown
-print(output)
+script_path <- "bostonUniversity_files/BostonCSFilesRaw/hw10.R"
+cat(readLines(script_path), sep = "\n")
 ```
+
 ## **CS566 - Analysis of Algorithms**  
 ### Course Summary
+
 By working through various algorithmic challenges, I gained a deep understanding of how different algorithms operate and their efficiencies. Learning about dynamic programming and greedy algorithms was particularly valuable, as it equipped me with the techniques to solve complex problems optimally. Implementing algorithms in programming assignments reinforced my coding skills and helped me appreciate the importance of algorithmic efficiency in software development.
 
 Overall, this course significantly enhanced my problem-solving abilities and provided me with a solid foundation for future studies in computer science and data analytics.
@@ -44,7 +46,14 @@ In the CS677 - Data Science with Python course, students learn major Python tool
 A significant focus of the course is on basic machine learning techniques, such as linear regression. Understanding linear regression was particularly beneficial as it provided insights into how to model relationships between variables and make predictions based on data. Through practical implementations and visualizations, I learned how to evaluate model performance and apply these techniques to real-world datasets.
 
 Additionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.
+
 ```{python}
-%run CS677DemoFile.py
+
+%run bostonUniversity_files/BostonCSFilesRaw/CS677DemoFile.py
+
 ```
+
+[Summary](bostonUniversity_files/BostonCSFilesRaw/CS677DemoFile.html)
+
+
 
