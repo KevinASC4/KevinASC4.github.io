@@ -2,9 +2,6 @@
 title: "Boston University Coursework"
 format: html
 editor: visual
-jupyter: python3
-resources:
-  - bostonUniversity_files/application_record.csv 
 ---
 
 # 📚 Boston University Coursework
@@ -43,11 +40,6 @@ A significant focus of the course is on basic machine learning techniques, such 
 
 Additionally, students are required to choose a topic for a final project, which they present on the last day of class. This project allows for the application of learned skills to a comprehensive data analysis problem, enhancing both technical abilities and presentation skills. In the below scripts I had to recreate the graphs provided using seaborn,matplot.lib, numpy and pandas.
 
-```{python}
-
-%run bostonUniversity_files/BostonCSFilesRaw/CS677DemoFile.py
-
-```
 
 [Summary](CS677DemoFile.qmd)
 
