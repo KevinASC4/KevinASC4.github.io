@@ -1,4 +1,4 @@
-packages <- c("ggplot2", "dplyr", "tidyr", "data.table")  # list your packages here
+packages <- c("ggplot2", "dplyr", "tidyr", "data.table","rmarkdown")  # list your packages here
 
 install_if_missing <- function(p) {
   if (!requireNamespace(p, quietly = TRUE)) {
