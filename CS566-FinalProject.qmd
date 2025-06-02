@@ -1,0 +1,153 @@
+---
+title: "Comparing Evolutionary-Inspired Algorithms and Neural Networks on Breast Cancer Prediction"
+author: "Kevin Lopez Sepulveda"
+format: 
+  revealjs:
+    theme: simple
+    transition: slide
+jupyter: python3
+execute:
+  enabled: true
+---
+
+
+
+## 📋 Agenda
+
+- Introduction to the problem  
+- Project Goal  
+- Random Forest  
+- MLP Neural Network  
+- Methods  
+- Results  
+- Conclusion  
+
+---
+
+## 🩺 Why Predicting Breast Cancer Matters
+
+- Early detection increases survival rates  
+- Machine learning can support diagnostic tools  
+- Automation helps reduce human error  
+
+---
+
+## 🌲 How Random Forest Works
+
+- An ensemble of decision trees  
+- Trains multiple trees on bootstrapped samples  
+- Final prediction is based on majority voting  
+- Helps reduce overfitting  
+
+---
+
+## 🧠 How MLP Neural Network Works
+
+- MLP = Multi-layer Perceptron  
+- Consists of input layer, hidden layers, output layer  
+- Learns via backpropagation and gradient descent  
+- Effective at capturing complex patterns  
+
+---
+
+## 🔧 Methods
+
+- Dataset: Breast Cancer Wisconsin Diagnostic Data  
+- Preprocessing: normalization, handling missing values  
+- Algorithms: Random Forest, MLP  
+- Evaluation metrics: Accuracy, Precision, Recall, F1 Score  
+
+---
+
+## 🐍 Running Models and Showing Results
+
+-**Python Code**: Below is the code to run both models and compare their performance on the breast cancer dataset.  
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix
+)
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neural_network import MLPClassifier
+
+# Setup for consistent visuals
+sns.set(style="whitegrid")
+
+# Load and split dataset
+data = load_breast_cancer()
+X, y = data.data, data.target
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# 1. Random Forest (as Evolutionary-Inspired Model)
+print("Training Random Forest Classifier (baseline for evolutionary approach)...")
+rf = RandomForestClassifier(n_estimators=100, random_state=42)
+rf.fit(X_train_scaled, y_train)
+y_pred_rf = rf.predict(X_test_scaled)
+
+# 2. Neural Network (MLP)
+print("\nTraining Neural Network Classifier...")
+mlp = MLPClassifier(hidden_layer_sizes=(30, 15), max_iter=1000, random_state=42)
+mlp.fit(X_train_scaled, y_train)
+y_pred_mlp = mlp.predict(X_test_scaled)
+
+# ------------------------
+# PERFORMANCE REPORTS
+# ------------------------
+print("\n--- Random Forest Classification Report ---")
+print(classification_report(y_test, y_pred_rf))
+
+print("\n--- Neural Network Classification Report ---")
+print(classification_report(y_test, y_pred_mlp))
+
+# ------------------------
+# SUMMARY COMPARISON
+# ------------------------
+acc_rf = accuracy_score(y_test, y_pred_rf)
+acc_mlp = accuracy_score(y_test, y_pred_mlp)
+
+print("\n--- Accuracy Summary ---")
+print(f"Random Forest Accuracy: {acc_rf:.4f}")
+print(f"MLP Accuracy:          {acc_mlp:.4f}")
+
+```
+
+---
+
+## 📊 Results
+
+- **Precision** : How many predicted positive cases are actually positive 
+
+- **Recall** : How many actual positive cases are correctly identified  
+
+- **F1-Score** : Balance of precision and recall  
+
+- **Accuracy** : Overall percentage of correct predictions  
+
+---
+
+## ✅ Conclusion
+
+- Random Forest performed better in terms of interpretability  
+- MLP captured non-linear relationships better  
+- Combining both might improve overall performance  
+- Future work: include other algorithms, tune hyperparameters  
+
+---
+
+## 🙏 Thank You
+
+Kevin Lopez Sepulveda  
+klopezs@bu.edu
