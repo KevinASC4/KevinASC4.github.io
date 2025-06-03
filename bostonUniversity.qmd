@@ -4,9 +4,35 @@ format: html
 editor: visual
 ---
 
+---
+
+```{=html}
+<style>
+  :root {
+    --bs-primary: #e63946; /* Red */
+    --bs-link-color: #e63946;
+    --bs-link-hover-color: #c82333;
+  }
+
+  body {
+    background-color: #fff5f5;
+  }
+
+  h1, h2, h3 {
+    color: #e63946;
+  }
+
+  .navbar, .btn-primary {
+    background-color: #e63946 !important;
+    border-color: #000000 !important;
+  }
+</style>
+```
+
+
 # 📚 Boston University Coursework
 
-Welcome to my **Boston University** coursework page. Below, you'll find a list of courses I've taken, along with **code execution** from my assignments and projects. I have utilized a majority of R and python for my courses. All files can be found on my Github repository linked below
+Welcome to my **Boston University** coursework page. Below, you'll find a list of courses I've taken, along with **code execution** from my assignments and projects. I have utilized a majority of R and python for my courses. Explore some of my projects and the classes assigned to them below.
 
 ---
 
@@ -19,28 +45,31 @@ Learning about histograms was particularly impactful for my understanding of dat
 
 In addition to histograms, the course covered the analysis of discrete, continuous, and multivariate distributions, enabling me to grasp how different data populations behave. We also examined common errors in measurements and computations, which emphasized the importance of accuracy in data analysis. Topics such as confidence intervals and hypothesis testing were integral to the curriculum, as they formed the basis for making data-driven conclusions. 
 
-By the end of the course, I not only gained proficiency in R for data visualization and analysis but also developed a solid foundation in the statistical concepts that underpin effective data analytics. The combination of theoretical knowledge and practical application has significantly enhanced my analytical skills, preparing me for more advanced studies and real-world data challenges. An example of what I was doing can be found below.
+By the end of the course, I not only gained proficiency in R for data visualization and analysis but also developed a solid foundation in the statistical concepts that underpin effective data analytics. The combination of theoretical knowledge and practical application has significantly enhanced my analytical skills, preparing me for more advanced studies and real-world data challenges. 
 
-### **Running R Script**
+An example of what I was doing can be found below. This is a homework assignment where I created a histogram and boxplot using the mtcars dataset in R. The histogram shows the distribution of miles per gallon (mpg) in the dataset, while the boxplot provides a summary of mpg across different cylinder counts.
 
 [See HW10 Results](METCS544_hw10.qmd)
 
 ## **CS566 - Analysis of Algorithms**  
 ### Course Summary
 
-By working through various algorithmic challenges, I gained a deep understanding of how different algorithms operate and their efficiencies. Learning about dynamic programming and greedy algorithms was particularly valuable, as it equipped me with the techniques to solve complex problems optimally. Implementing algorithms in programming assignments reinforced my coding skills and helped me appreciate the importance of algorithmic efficiency in software development.
-Overall, this course significantly enhanced my problem-solving abilities and provided me with a solid foundation for future studies in computer science and data analytics. Below is my final report in power point.
+By working through various algorithmic challenges, I gained a deep understanding of how different algorithms operate and their efficiencies. Learning about dynamic programming and greedy algorithms was particularly valuable, as it equipped me with the techniques to solve complex problems optimally. Implementing algorithms in programming assignments reinforced my coding skills and helped me appreciate the importance of algorithmic efficiency in software development. Overall, this course significantly enhanced my problem-solving abilities and provided me with a solid foundation for future studies in computer science and data analytics. 
 
-[Summary](CS566-FinalProject.qmd)
+Below is my final report in power point detailing the difference between Neural Networks and Decision Trees on the Breast Cancer dataset provided by Sci-Kit, which I presented at the end of the course.
+
+[Final Project CS566 slides](CS566-FinalProject.qmd)
 
 ## **CS677 - Data Science with Python**  
 ### Course Summary
 In CS677 - Data Science with Python, I learned major Python tools and techniques for data analysis. The course covered various topics through weekly assignments and mini-projects, allowing me to build essential statistical, visualization, and data science skills necessary for effective data usage in diverse applications, including finance, text processing, time series analysis, and recommendation systems.
 A significant focus of the course was on basic machine learning techniques, such as linear regression. Understanding linear regression was particularly beneficial, as it provided insights into how to model relationships between variables and make predictions based on data. Through practical implementations and visualizations, I learned how to evaluate model performance and apply these techniques to real-world datasets.
-Additionally, I was required to choose a topic for a final project, which I presented on the last day of class. This project allowed me to apply my skills to a comprehensive data analysis problem, enhancing both my technical abilities and presentation skills. In the scripts linked below, I recreated provided graphs using seaborn, matplotlib, numpy, and pandas.
+Additionally, I was required to choose a topic for a final project, which I presented on the last day of class. This project allowed me to apply my skills to a comprehensive data analysis problem, enhancing both my technical abilities and presentation skills. 
+
+In the scripts linked below, I recreated provided graphs using seaborn, matplotlib, numpy, and pandas.
 
 
-[Summary](CS677DemoFile.qmd)
+[Sample Homework](CS677DemoFile.qmd)
 
 ## **CS699 - Data Mining**  
 ### Course Summary
@@ -49,7 +78,9 @@ METCS699 – Data Mining is a graduate-level course that introduced me to fundam
 I began with data exploration and preprocessing, which involved understanding and preparing datasets for analysis. I then moved into performance evaluation methods used to assess model accuracy and generalizability. I studied a variety of supervised learning algorithms, including k-nearest neighbors (KNN), Naïve Bayes, decision trees, logistic regression, support vector machines (SVM), and neural networks.
 As the course progressed, I delved into ensemble methods, which combine multiple models to improve predictive performance. I also explored association rule mining for discovering relationships between variables in large datasets, along with collaborative filtering techniques used in recommendation systems.
 Later, I studied unsupervised learning methods like clustering to identify patterns and groupings in unlabeled data. Time series analysis was also covered, equipping me with tools for modeling and forecasting temporal data.
-A significant component of the course was a data mining project where I applied the concepts I'd learned to a real-world dataset, culminating in a written report and presentation. Homework assignments reinforced lecture content and provided opportunities for individual practice. By the end of the course, I had gained a comprehensive understanding of both theoretical and applied data mining techniques. Below is the link to the final project in this course.
+A significant component of the course was a data mining project where I applied the concepts I'd learned to a real-world dataset, culminating in a written report and presentation. Homework assignments reinforced lecture content and provided opportunities for individual practice. By the end of the course, I had gained a comprehensive understanding of both theoretical and applied data mining techniques. 
+
+Below is the link to the final project in this course. It uses different machine learning techniques to evaluate classification models using a dataset from the 2023 American Community Survey. The primary goal of this project was to explore various classification techniques and evaluate their performance in predicting whether individuals have difficulty living independently.
 
 [Report](METCS699-Final-Report-Doc.qmd)
 

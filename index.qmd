@@ -28,7 +28,7 @@ Feel free to explore my other pages below!
 
 - 🔥 [My GitHub Repository](https://github.com/KevinASC4) - Access all my projects and coursework  
 - 🎓 [Syracuse University Projects](syracuseUniversity.qmd) - View my work from Syracuse University  
-- 🎓 [Boston University Projects](syracuseUniversity.qmd) - View my work from Boston University 
+- 🎓 [Boston University Projects](bostonUniversity.qmd) - View my work from Boston University 
 - 📂 [New York Times Article](nyt.qmd) - View this article about me
 
 ---

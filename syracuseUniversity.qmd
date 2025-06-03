@@ -4,11 +4,42 @@ author: "Kevin Lopez Sepulveda"
 date: today
 format: html
 ---
+```{=html}
+<style>
+  :root {
+    --bs-primary: #f97316; /* Orange */
+    --bs-link-color: #f97316;
+    --bs-link-hover-color: #ea580c;
+  }
 
-# Syracuse University
+  body {
+    background-color: #fff7ed; /* Soft orange background */
+  }
 
-## My GitHub Repository for Class Materials
+  h1, h2, h3 {
+    color: #f97316;
+  }
 
-You can find all my class projects and materials in my GitHub repository:
+  .navbar, .btn-primary {
+    background-color: #f97316 !important;
+    border-color: #000000 !important;
+  }
+</style>
+```
 
-[Visit my GitHub Syracuse Classes](https://github.com/KevinASC4/SyracuseUniversityCS)
+# 📚 Syracuse University Coursework
+
+Welcome to my **Syracuse University** coursework page. Below, you'll find a list of courses I've taken, along with **code execution** from my assignments and projects. I have utilized a variety of languages for my courses, but a majority of it is Python. All files can be found on my Github repository linked below
+
+---
+
+## **CIS341 - Computer Organization & Programming Systems**  
+### Course Summary
+
+In this class, I learned the foundational concepts behind how computers work at a low level. I started with digital logic—understanding how basic gates and circuits make decisions using binary. From there, I explored data types and how different kinds of information like integers, characters, and floating-point numbers are represented in binary form. I got hands-on with instruction set architecture, learning how processors understand and execute instructions.
+
+We worked with assembly language, which gave me insight into how high-level code translates into machine instructions. I also learned how programs are constructed and how the CPU processes them step by step. The course covered the memory hierarchy too—how registers, cache, RAM, and storage work together to balance speed and capacity.
+
+We discussed traps and interrupts, which taught me how the processor handles unexpected events or system calls. I learned about system privilege levels and basic security concepts that protect the OS and hardware. Finally, we went over input-output subsystems and how external devices communicate with the CPU.
+
+Overall, this course gave me a much deeper understanding of what’s happening under the hood whenever I write or run a program.
