@@ -57,7 +57,7 @@ Beyond just playing, I also like keeping up with soccer analytics, exploring how
 Gaming has always been a huge part of my life, both as a player and as a tech enthusiast. I enjoy a wide variety of genres, from strategy games that challenge my problem-solving skills to fast-paced shooters that require precision and quick thinking.  
 
 - **Favorite Genres**: FPS, Open-World Games, Strategy
-- **Go-to Games**: Fortnite, COD, Minecraft, GTA, Blackhack
+- **Go-to Games**: Fortnite, COD, Minecraft, GTA
 - **What I Love About Gaming**: The mix of competition, creativity, and storytelling  
 
 My interest in gaming extends beyond playing—I also love **game development**. I have explored Unity and Unreal Engine, learning how mechanics like physics engines, AI behavior, and procedural generation work. I’m fascinated by how **game theory, decision trees, and AI models** influence the design of NPC behavior and competitive AI in video games.  
@@ -69,14 +69,14 @@ Game theory is an area where my interest in logic, mathematics, and decision-mak
 
 One of my favorite ways to apply game theory is through **Card Games, like blackjack, and AI-driven simulations**. I like breaking down strategic interactions, whether it’s finding the best move in a hand or analyzing how companies compete in a pricing war using **Prisoner’s Dilemma** concepts.  
 
-Additionally, I’ve explored the use of **machine learning in game strategy**, particularly reinforcement learning algorithms that teach AI how to make smarter decisions over time. This area closely relates to AI-driven competition, like training bots to play games such as Dota 2, Starcraft, and Go.  
+Additionally, I’ve explored the use of **machine learning in game strategy**, particularly reinforcement learning algorithms that teach AI how to make smarter decisions over time. This area closely relates to AI-driven competition, like training bots to play games such as pacman.
 
 ---
 
 ### 🎵 Music & Creative Interests  
 Beyond tech and strategy, I also have a strong appreciation for music. I enjoy discovering new genres, exploring music production tools, and sometimes even experimenting with creating beats. The way music influences mood, productivity, and even cognitive function is something that fascinates me.  
 
-- **Favorite Genres**: Lo-fi, Hip-Hop, Rap, R&B, Reggaeton
+- **Favorite Genres**: Lo-fi, Hip-Hop, Rap, R&B, Reggaeton, Drill
 - **Favorite Artists**: Sheff G, Drake, Feid, Usher, Ne-Yo, Lil wayne
 - **Interests**: Making music myself as a personal side hobby 
 

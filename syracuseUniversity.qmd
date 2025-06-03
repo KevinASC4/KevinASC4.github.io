@@ -29,7 +29,11 @@ format: html
 
 # 📚 Syracuse University Coursework
 
-Welcome to my **Syracuse University** coursework page. Below, you'll find a list of courses I've taken, along with **code execution** from my assignments and projects. I have utilized a variety of languages for my courses, but a majority of it is Python. All files can be found on my Github repository linked below
+Welcome to my **Syracuse University** coursework page. I have utilized a variety of languages for my courses, but a majority of it is Python. All files can be found on my Github repository linked below the course. 
+
+## Major Notes about Undergraduate work
+
+**Not all of my work is seen on github** because I had my computer stolen. This is only a snippet of the work completed for my undergraduate degree. Many Assignments are missing and/or incomplete. For this reason, I will not be including executed code from homeworks or projects. I will only be including the projects that have been saved per class. **Thank you for understanding**.
 
 ---
 
@@ -43,3 +47,52 @@ We worked with assembly language, which gave me insight into how high-level code
 We discussed traps and interrupts, which taught me how the processor handles unexpected events or system calls. I learned about system privilege levels and basic security concepts that protect the OS and hardware. Finally, we went over input-output subsystems and how external devices communicate with the CPU.
 
 Overall, this course gave me a much deeper understanding of what’s happening under the hood whenever I write or run a program.
+
+[CIS341 repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS341)
+
+## **CIS 352 - Programming Language: Theory & Practice**
+### Course Summary
+
+In this course, I’ve been learning how different programming language features work by building them myself using **Racket**, a functional programming language. Working with Racket has really helped me understand the fundamentals of how programming languages are designed and implemented.
+
+I started by writing **definitional interpreters**—small interpreters that define how programs in a simple language should behave. These interpreters helped me understand how **environments** and **stores** work behind the scenes to manage variable bindings and mutable state. Racket’s support for **recursive functions** and **pattern matching** made it easier to express these ideas clearly and concisely.
+
+As I explored **scoping rules**, I saw the difference between **lexical** and **dynamic scoping**, and how closures capture their environment. I also learned how to simulate **imperative features**, like assignment and sequencing, even in a language that’s primarily functional.
+
+Throughout the course, I implemented features like **modules**, **classes**, and **data encapsulation** by designing custom structures and functions that mimic object-oriented behavior. This showed me how even object-oriented ideas can be modeled in a functional style.
+
+Later on, I explored **type systems**, building simple **static type checkers** to catch type errors before a program runs. I also learned about **polymorphism**, and how generic functions can work with many types using parametric typing.
+
+Overall, this course helped me understand not just what language features do, but how to actually implement them from scratch. Using Racket gave me a hands-on way to explore both **functional** and **imperative** paradigms, and gave me a much deeper appreciation for the structure of programming languages.
+
+[CIS352 repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS352)
+
+## **CIS 400 - Data Mining**
+### Course Summary
+
+In this course, I’ve been learning how to mine and analyze data from social media, specifically using the Twitter API. The focus has been on collecting real-time and historical Twitter data by writing scripts that interact with Twitter’s platform to “scalp” large amounts of relevant information.
+
+I started by understanding how the Twitter API works — including authentication, rate limits, and the different endpoints available to access tweets, user information, and trends. Using programming languages like Python, I learned to write code that fetches tweets based on specific keywords, hashtags, locations, or user profiles.
+
+Through this process, I gained hands-on experience with data collection techniques such as streaming and REST API calls, which helped me build datasets for further analysis. I also explored how to clean and preprocess the noisy and unstructured Twitter data, handling challenges like missing information, duplicate tweets, and slang or emojis.
+
+The course taught me how to apply basic data mining methods to the collected data, including text analysis, sentiment analysis, and trend detection. By working on projects, I practiced building visualizations and dashboards that summarize the insights derived from the Twitter data.
+
+Overall, this course gave me practical skills in using APIs for large-scale data gathering and the foundational knowledge to analyze social media data in meaningful ways.
+
+[CIS400 - Data Mining repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS400-DataMining)
+
+## **CIS 400 - Evolutionary Machine Learning**
+### Course Summary
+
+In this course, I’ve been diving into evolutionary machine learning techniques, combining concepts from evolutionary algorithms with deep learning frameworks like PyTorch. The goal has been to understand how nature-inspired algorithms—like genetic algorithms, particle swarm optimization, and evolutionary strategies—can be used to optimize neural networks and solve complex problems.
+
+I started by learning the basics of evolutionary algorithms, including how populations of candidate solutions evolve over generations through selection, crossover, and mutation. Then, I explored how to represent neural network parameters as genomes and apply these evolutionary operators to train models without relying solely on gradient-based methods.
+
+Using PyTorch, I implemented various evolutionary algorithms from scratch and integrated them with deep learning models. This hands-on experience helped me understand the flexibility of PyTorch’s tensor operations and automatic differentiation while experimenting with alternative optimization strategies.
+
+Throughout the course, I worked on projects that involved evolving neural network architectures and weights to improve performance on benchmark datasets. This approach allowed me to appreciate the balance between exploration and exploitation in search algorithms and how evolutionary methods can complement traditional machine learning techniques.
+
+Overall, this course has expanded my toolkit for training machine learning models and deepened my understanding of how evolutionary computation can drive innovation in AI.
+
+[CIS400 - Evolutionary Machine Learning repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS400-ML)
