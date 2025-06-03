@@ -51,4 +51,8 @@ As the course progressed, I delved into ensemble methods, which combine multiple
 Later, I studied unsupervised learning methods like clustering to identify patterns and groupings in unlabeled data. Time series analysis was also covered, equipping me with tools for modeling and forecasting temporal data.
 A significant component of the course was a data mining project where I applied the concepts I'd learned to a real-world dataset, culminating in a written report and presentation. Homework assignments reinforced lecture content and provided opportunities for individual practice. By the end of the course, I had gained a comprehensive understanding of both theoretical and applied data mining techniques. Below is the link to the final project in this course.
 
+[Report](METCS699-Final-Report-Doc.qmd)
+
+[Download Full Report(ZIP FILE)](KevinLopezSepulveda-Dirgha-FinalReport-Final-2.0.zip)
+
 

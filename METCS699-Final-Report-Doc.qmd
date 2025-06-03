@@ -1,0 +1,203 @@
+---
+title: "CS699 – Spring 2025 Project Report"
+author: "Kevin Adrian Lopez Sepulveda, Dirgha Pareshkumar Jivani"
+format: html
+toc: true
+number-sections: true
+---
+
+## Cover Page
+
+This report summarizes the work conducted for the CS699 project during the Spring 2025 semester. Our project focused on building and evaluating classification models using a dataset from the 2023 American Community Survey.
+
+The primary goal was to explore various classification techniques and evaluate their performance in predicting whether individuals have difficulty living independently.
+
+The dataset contained **4318 entries** and **117 variables**, with the class attribute indicating whether individuals face challenges in living independently.
+
+We implemented different models, analyzed their strengths and weaknesses, and included data preprocessing, balancing techniques, and model evaluation.
+
+---
+
+## Data Mining Tools
+
+We used **R** for all data mining and modeling work, supported by several key packages:
+
+- **`tidyverse`**: For data manipulation and visualization.
+- **`caret`**: For preprocessing, feature selection, and model training.
+- **`e1071`**: For algorithms like SVM.
+- **`randomForest`**: For Random Forest classification.
+- **`nnet`**: For training neural networks.
+- **`rpart`**: For building decision trees.
+- **`pROC`**: For ROC and AUC evaluation.
+
+---
+
+## Classification Algorithms Used
+
+In our analysis, we implemented several classification algorithms to predict the target variable, which indicates whether a person has difficulty living independently. The models we evaluated include:
+
+1. **Logistic Regression** - This model estimates the probability of a binary outcome based on one or more predictor variables. It is a widely used method for binary classification tasks.
+2. **Decision Trees** - A decision tree uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. Decision trees are easy to interpret and visualize.
+3. **Random Forest** - This algorithm builds multiple decision trees and merges them together to get a more accurate and stable prediction. It is known for its robustness and ability to handle large datasets.
+4. **Neural Networks** - These models are inspired by the human brain and consist of layers of interconnected nodes, allowing for complex relationships in the data to be learned. They are particularly effective for large datasets with non-linear relationships.
+5. **Support Vector Machines (SVM)** - This algorithm finds the hyperplane that best separates different classes in the feature space. SVMs are effective in high-dimensional spaces and are commonly used for classification tasks.
+6. **k-Nearest Neighbors (k-NN)** - This method classifies instances based on the classes of their nearest neighbors in the feature space. It is simple and effective, especially for smaller datasets.
+
+---
+
+## Data Mining Procedure
+
+### Step 1: Dataset Preparation
+We began by loading our dataset, which was part of the 2023 American Community Survey. The dataset contained 4318 entries with 117 variables, with the class attribute indicating whether individuals had difficulties living independently.
+
+### Step 2: Data Cleaning
+Next, we performed data cleaning by removing any columns that had more than 50% missing values. This step was crucial to ensure that our analysis was not skewed by incomplete data. For the remaining missing values, we applied a simple imputation method, filling them with zeros.
+
+### Step 3: Variable Transformation
+The target variable "Class" was converted into a factor to ensure it was treated correctly by the classification algorithms. This transformation is essential for accurate model training and evaluation.
+
+### Step 4: Feature Scaling
+To standardize our numeric features, we applied scaling techniques to ensure that all features contributed equally to the model training process. This step helps improve model performance, especially for algorithms sensitive to the scale of input features.
+
+### Step 5: Train-Test Split
+We split the dataset into training and testing sets, using 80% of the data for training the models and the remaining 20% for testing their performance. This split is crucial for evaluating how well our models can generalize to unseen data.
+
+### Step 6: Balancing Techniques
+
+To address the issue of class imbalance in our dataset, we implemented two sampling techniques: undersampling and oversampling. The undersampling method reduced the number of instances in the majority class, while the oversampling method increased the number of instances in the minority class by randomly sampling with replacement. This balancing step is vital for building robust models that can accurately predict both classes.
+
+### Step 7: Model Training & Evaluation
+
+We trained multiple classification models on both the undersampled and oversampled datasets. A custom evaluation function was used to calculate performance metrics, including confusion matrices, accuracy, sensitivity, specificity, precision, recall, F1 score, and ROC AUC. These metrics provided a comprehensive view of each model's performance.
+
+---
+
+## Data Mining Results and Evaluation
+
+### Logistic Regression
+
+**Confusion Matrix**  
+
+|         | No  | Yes |
+|---------|-----|-----|
+| **No**  | 789 | 44  |
+| **Yes** | 11  | 19  |
+
+**Metrics**
+
+- Accuracy: `0.9546`
+- Sensitivity: `0.6333`
+- Specificity: `0.9798`
+- Precision: `0.9597`
+- Recall: `0.6333`
+- F1 Score: `0.7657`
+- ROC AUC: `0.7566`
+
+### Decision Tree
+
+**Confusion Matrix**  
+
+|         | No  | Yes |
+|---------|-----|-----|
+| **No**  | 800 | 63  |
+| **Yes** | 0   | 0   |
+
+**Metrics**
+
+- Accuracy: `0.9270`
+- Sensitivity: `1.0000`
+- Specificity: `0.0000`
+- Precision: `0.9270`
+- F1 Score: `0.9621`
+- ROC AUC: `0.5000`
+
+### Random Forest
+
+**Confusion Matrix**  
+
+|         | No  | Yes |
+|---------|-----|-----|
+| **No**  | 792 | 47  |
+| **Yes** | 7   | 16  |
+
+**Metrics**
+- Accuracy: `0.9363`
+- Sensitivity: `0.9805`
+- Specificity: `0.2492`
+- F1 Score: `0.9781`
+- ROC AUC: `0.6641`
+
+### Neural Network
+
+**Confusion Matrix**  
+
+|         | No  | Yes |
+|---------|-----|-----|
+| **No**  | 800 | 63  |
+| **Yes** | 0   | 0   |
+
+**Metrics**
+
+- Accuracy: `0.9270`
+- Sensitivity: `1.0000`
+- Specificity: `0.0000`
+- F1 Score: `0.9621`
+- ROC AUC: `0.5000`
+
+---
+
+## Model Performance Comparison
+
+| Model               | Sensitivity | Specificity | Precision | F1 Score | ROC AUC  |
+|---------------------|-------------|-------------|-----------|----------|----------|
+| GLM (Under)         | 0.7788      | 0.8571      | 0.9858    | 0.8701   | 0.8180   |
+| GLM (Over)          | 0.8238      | 0.8095      | 0.9821    | 0.8960   | 0.8166   |
+| rpart (Under)       | 1.0000      | 0.0000      | 0.9270    | 0.9621   | 0.5000   |
+| rpart (Over)        | 1.0000      | 0.0000      | 0.9270    | 0.9621   | 0.5000   |
+| RF (Under)          | 0.7875      | 0.8254      | 0.9828    | 0.8744   | 0.8064   |
+| RF (Over)           | 0.9825      | 0.3492      | 0.9504    | 0.9662   | 0.6659   |
+| nnet (Under)        | 0.6700      | 0.8254      | 0.9799    | 0.7958   | 0.7477   |
+| nnet (Over)         | 0.8175      | 0.7937      | 0.9805    | 0.8916   | 0.8056   |
+
+---
+
+## Discussion
+The results from our models reveal significant differences in performance between the undersampled and oversampled datasets. For instance, the GLM model performed better with oversampling, achieving higher accuracy and sensitivity, indicating its improved ability to identify instances of difficulty living independently. Conversely, the decision tree and neural network models showed consistently poor specificity across both sampling methods, often misclassifying many positive instances.
+Using the confusion matrices allows us to understand not only the overall accuracy of the models but also how well they are performing on each class. The F1 scores provide a balance between precision and recall, which is particularly important when dealing with imbalanced datasets. The ROC AUC scores further enhance our understanding of each model’s ability to discriminate between classes, with higher values indicating better performance.
+
+--- 
+
+## ROC Curve Comparison
+The ROC (Receiver Operating Characteristic) curves provide a comprehensive view of each model's ability to classify instances correctly across various thresholds. By plotting the true positive rate (sensitivity) against the false positive rate (1-specificity), we can visualize the trade-off between sensitivity and specificity for each model.
+In our analysis, the random forest model demonstrated a superior ROC curve, indicating that it effectively balances sensitivity and specificity, particularly at higher thresholds. This means that it correctly identifies a significant proportion of individuals who have difficulty living independently while maintaining a low rate of false positives. Conversely, models like the decision tree and neural network showed less favorable ROC curves, as they tended to have lower true positive rates and higher false positive rates, especially when faced with class imbalance.
+Overall, the ROC curve analysis reinforces our findings from the confusion matrices and performance metrics, highlighting the random forest's robustness in classification tasks. By considering the area under the curve (AUC) values, which quantify the overall performance, we found that the random forest achieved the highest AUC, followed closely by logistic regression. These results emphasize the importance of model selection based on ROC analysis, as it provides insights into the models' performance beyond simple accuracy metrics.
+ 
+ ---
+
+## Conclusion
+In conclusion, we successfully built and evaluated multiple classification models to predict whether individuals have difficulty living independently using a dataset from the 2023 American Community Survey. Throughout the project, we employed R as our primary tool, utilized various preprocessing techniques, and implemented sampling methods to balance our datasets. The results showed varied performance across models, highlighting the importance of selecting the appropriate model based on specific metrics.
+The comparison of models indicated that while logistic regression and random forest models performed relatively well, other models like decision trees and neural networks faced challenges with class imbalance, leading to misleading metrics. Moving forward, we can refine our models further by incorporating more sophisticated feature selection methods and exploring additional algorithms. This project provided valuable insights into the complexities of machine learning and the significance of data preprocessing in achieving high-performance models.
+Conclusion on Model Performance
+In summary, the models produced varied results, showcasing the strengths and weaknesses of each approach. The GLM and Random Forest models generally exhibited higher accuracy and sensitivity in the oversampled datasets, indicating their effectiveness in identifying individuals who have difficulty living independently. However, the Decision Tree and Neural Network models faced challenges, particularly with sensitivity and specificity in certain datasets. The visualizations provided further insights, allowing us to make informed decisions about the most suitable models for our analysis.
+Next Steps
+Given the performance metrics and visual comparisons, future work may focus on refining the models, exploring advanced tuning techniques, and investigating additional algorithms that may further improve prediction accuracy. This project has provided a solid foundation for understanding the intricacies of classification modeling using real-world datasets.
+
+---
+
+## Division of Work
+
+- Kevin Adrian Lopez Sepulveda: Responsible for data preprocessing, implementing sampling methods, training models, and evaluating their performance.
+
+- Dirgha Pareshkumar Jivani: Assisted in data exploration, implementation of algorithms.
+
+---
+
+## References
+
+- U.S. Census Bureau. (2023). American Community Survey. Retrieved from American Community Survey.
+
+
+## Appendix
+
+The Full Zip File can be found below, it contains the r files and the dataset used in this project.
+[Download Full Report(ZIP FILE)](KevinLopezSepulveda-Dirgha-FinalReport-Final-2.0.zip)
