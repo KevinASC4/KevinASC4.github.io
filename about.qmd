@@ -13,7 +13,7 @@ editor: visual
 
 :::{figure}
 ![Profile Picture](images/CuteFace.jpg){width=100%}  <!-- Adjusted to take full width -->
-Caption: This is a very rare photo of me in 2018.
+Caption: This is a very rare photo of me in 2018 at the start of my coding journey.
 :::
 
 
@@ -39,7 +39,7 @@ I have a passion for working on **AI, full-stack development, and data-driven so
 - **Cardinal Health** - Fuse Intern  
 - **Johnson Controls** - Software Automation Intern  
 
-For full details, check out my [GitHub](https://github.com/KevinASC4) or [LinkedIn](https://www.linkedin.com/in/kevin-lopez1).  
+For full details, check out my [LinkedIn](https://www.linkedin.com/in/kevin-lopez1).  
 
 ---
 

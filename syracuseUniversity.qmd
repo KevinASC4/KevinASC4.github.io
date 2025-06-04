@@ -96,3 +96,63 @@ Throughout the course, I worked on projects that involved evolving neural networ
 Overall, this course has expanded my toolkit for training machine learning models and deepened my understanding of how evolutionary computation can drive innovation in AI.
 
 [CIS400 - Evolutionary Machine Learning repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS400-ML)
+
+## **CIS 453 - Software Specification and Design**
+### Course Summary
+
+In this software engineering course, I learned the full cycle of how software is planned, designed, and developed in a structured way. We started by studying different **software engineering process models**, which helped me understand how projects can be managed using approaches like Waterfall and Agile. I got hands-on practice analyzing **software requirements**, both behavioral (how the software should act) and nonbehavioral (like performance or security needs). Our main planning style learned was waterfall method, which has since been outdated.
+
+One of the most interesting parts was learning **object-oriented analysis** to break down complex systems using concepts like classes and interactions. We practiced writing up **specification documents** that clearly define what a software system should do, and I learned how crucial those documents are for keeping a project on track.
+
+We also worked with **UML (Unified Modeling Language)** to visually design systems using use case diagrams, class diagrams, and sequence diagrams. That really helped me organize my thinking during the **high-level design** and **software architecture** phases.
+
+Throughout the semester, we worked in **teams** to apply all these concepts in real projects. It gave me a better appreciation of how collaboration, planning, and good design principles come together in professional software development.
+
+Overall, this class gave me a strong foundation in both the technical and collaborative aspects of building real-world software systems.
+
+[CIS453 Repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS453)
+
+## **CIS 454 - Software Implementation**
+### Course Summary
+
+After laying the groundwork in CIS 453 by designing software systems and writing UML specifications, CIS 454 was all about **bringing those designs to life through implementation and testing**.
+
+We started with **detailed design work**, breaking down high-level architecture into more granular components ready for coding. Then, using tools like Git and development environments like Visual Studio Code, we began **implementing our software systems** directly from our UML diagrams and specification documents.
+
+Throughout the course, we used **agile development methodologies**, working in sprints, doing standups, and managing our tasks with tools like Trello or Jira. This iterative process helped us stay organized, adapt to feedback quickly, and work efficiently in **teams**—just like in real-world software engineering.
+
+Testing was also a major focus. We practiced writing **unit tests** and performing **integration testing** to ensure each part of the software worked as expected. This gave me a much better understanding of the **software development lifecycle**, especially how important early and continuous testing is to building reliable applications.
+
+Lastly, we explored topics of **ethics and social responsibility**, discussing how the software we build can impact users and society. It was a reminder that good engineering is about more than just code—it’s about thoughtful design, inclusive practices, and accountability.
+
+By the end of CIS 454, I had taken a full software project from design to a working product, which was both challenging and extremely rewarding.
+
+[CIS454 Repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS453/CIS454)
+
+## **CIS 477 - Introduction to Analysis of Algorithms**
+### Course Summary
+
+In this course, I explored the mathematical modeling of computational problems and learned how to design efficient algorithms to solve them. We started with foundational concepts like **searching and sorting algorithms**, analyzing their time and space complexities. This gave me a strong understanding of how performance is affected by algorithmic choices.
+
+I worked with **data structures** such as **search trees**, **heaps**, and **hash tables**, and used them to solve problems more efficiently. From there, we explored powerful algorithm design paradigms like **divide-and-conquer**, **dynamic programming**, and **greedy algorithms**—each offering different strategies for tackling complex tasks.
+
+We also dove deep into **graph algorithms**, including **breadth-first search**, **depth-first search**, **Dijkstra’s**, and **Kruskal’s algorithms**, which taught me how to model and solve real-world problems involving networks and relationships.
+
+One of the most fascinating parts of the course was studying **Graph algorithms** and understanding how math and algorithmic thinking conquer graph theory. Toward the end of the course, we touched on **NP-completeness**, which introduced me to the limits of computational feasibility and the significance of problems that don’t have known polynomial-time solutions.
+
+Overall, this course sharpened my problem-solving skills and gave me a deeper appreciation for the power and limitations of algorithms in computing.
+
+[CIS477 repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CIS477)
+
+## **CSE 384 - Systems and Network Programming**
+### Course Summary
+
+In this course, I learned how to write and manage **Unix-based systems and network software** using **shell scripting** and the **C programming language**. One of the first skills I picked up was working with **Makefiles**, **compilers**, **linkers**, and **debuggers**, which helped me manage large projects with **multiple source files** more efficiently.
+
+I got hands-on experience with **system calls** and **dynamic memory allocation**, deepening my understanding of how low-level programs interact with the operating system. Working with **pointers** and memory management in C taught me how to write more efficient and robust code while also helping me appreciate the complexity of systems-level programming.
+
+We also covered **concurrent and parallel programming**, where I learned how to write code that could take advantage of multiple CPU cores or manage tasks simultaneously using processes and threads. These skills were essential for the **network programming** portion of the course, where I implemented client-server applications using **sockets**.
+
+The course placed a strong emphasis on **defensive programming techniques**—anticipating failures and writing secure, stable software. All in all, this course helped me gain confidence working close to the hardware, managing resources carefully, and writing code that interacts directly with the OS and the network.
+
+[CSE384 repository](https://github.com/KevinASC4/SyracuseUniversityCS/tree/main/CSE384)
