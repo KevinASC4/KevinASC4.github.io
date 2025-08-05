@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: _site
-
+format:
+  html:
+    include-in-header: analytics.html
 website:
   title: "Kevin Lopez Sepulveda"
   navbar:

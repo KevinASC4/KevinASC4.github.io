@@ -11,32 +11,32 @@ format:
 editor: visual
 ---
 
-# Welcome to My Portfolio 
-:::{figure}
-![Profile Picture](images/Convention-Photo-KALS.jpg){width=100%}  <!-- Adjusted to take full width -->
-Caption: This was taken during my fraternity convention in 2023.
-::: 
+# Welcome to My Portfolio
 
-## About Me  
-Hello! I'm **Kevin Lopez**, a **Computer Science** graduate from **Syracuse University** and a current **Applied Data Analytics** master's student at **Boston University**. I have experience in **data science, software engineering, and machine learning**.  
+::: {figure}
+![Profile Picture](images/Convention-Photo-KALS.jpg){width="100%"} <!-- Adjusted to take full width --> Caption: This was taken during my fraternity convention in 2023.
+:::
 
-Feel free to explore my other pages below! 
+## About Me
 
----
+Hello! I'm **Kevin Lopez**, a **Computer Science** graduate from **Syracuse University** and a current **Applied Data Analytics** master's student at **Boston University**. I have experience in **data science, software engineering, and machine learning**.
 
-## 🔗 Quick Links  
+Feel free to explore my other pages below!
 
-- 🔥 [My GitHub Repository](https://github.com/KevinASC4) - Access all my projects and coursework  
-- 🎓 [Syracuse University Projects](syracuseUniversity.qmd) - View my work from Syracuse University  
-- 🎓 [Boston University Projects](bostonUniversity.qmd) - View my work from Boston University 
-- 📂 [New York Times Article](nyt.qmd) - View this article about me
+------------------------------------------------------------------------
 
----
+## 🔗 Quick Links
 
-## 📩 Contact Me  
+-   🔥 [My GitHub Repository](https://github.com/KevinASC4) - Access all my projects and coursework\
+-   🎓 [Syracuse University Projects](syracuseUniversity.qmd) - View my work from Syracuse University\
+-   🎓 [Boston University Projects](bostonUniversity.qmd) - View my work from Boston University
+-   📂 [New York Times Article](nyt.qmd) - View this article about me
 
-- 📧 Email: [lopezsepulvedakevinadrian@gmail.com](mailto:lopezsepulvedakevinadrian@gmail.com)  
-- 💼 LinkedIn: [Kevin Adrian Lopez Sepulveda](https://www.linkedin.com/in/kevin-lopez1)  
+------------------------------------------------------------------------
 
----
+## 📩 Contact Me
 
+-   📧 Email: [lopezsepulvedakevinadrian\@gmail.com](mailto:lopezsepulvedakevinadrian@gmail.com)\
+-   💼 LinkedIn: [Kevin Adrian Lopez Sepulveda](https://www.linkedin.com/in/kevin-lopez1)
+
+------------------------------------------------------------------------
